@@ -1,7 +1,7 @@
 [
     {
         "front": "numpy",
-        "back": "Numerical python for arrays<br>nimport numpy as np"
+        "back": "Numerical python for arrays<br>import numpy as np"
     },
     {
         "front": "matplotlib",
