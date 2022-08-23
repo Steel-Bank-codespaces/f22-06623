@@ -1,11 +1,11 @@
 [
     {
         "front": "numpy",
-        "back": "Numerical python for arrays\nimport numpy as np"
+        "back": "Numerical python for arrays<br>nimport numpy as np"
     },
     {
         "front": "matplotlib",
-        "back": "Plotting library for python.\nimport matplotlib.pyplot as plt"
+        "back": "Plotting library for python.<br>import matplotlib.pyplot as plt"
     },
     {
         "front": "scipy",
