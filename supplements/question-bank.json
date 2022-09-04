@@ -1,0 +1,5250 @@
+[
+    {
+        "question": "Which character is used to comment out code?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": ".",
+                "correct": false
+            },
+            {
+                "answer": "/",
+                "correct": false
+            },
+            {
+                "answer": "#",
+                "correct": true
+            },
+            {
+                "answer": "//",
+                "correct": false
+            }
+        ],
+        "tag": "jupyter",
+        "lecture_file": "00_intro"
+    },
+    {
+        "question": "Which character can be used to see the documentation on a python package?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "<>",
+                "correct": false
+            },
+            {
+                "answer": "?",
+                "correct": true
+            },
+            {
+                "answer": "_",
+                "correct": false
+            },
+            {
+                "answer": "#",
+                "correct": false
+            }
+        ],
+        "tag": "python",
+        "lecture_file": "00_intro"
+    },
+    {
+        "question": "Which character can be used to see the source code of a python package?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "??",
+                "correct": true
+            },
+            {
+                "answer": "<>",
+                "correct": false
+            },
+            {
+                "answer": "//",
+                "correct": false
+            },
+            {
+                "answer": "::",
+                "correct": false
+            }
+        ],
+        "tag": "python",
+        "lecture_file": "00_intro"
+    },
+    {
+        "question": "Which python library can be used to calculate the tan() of a number?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "np",
+                "correct": false
+            },
+            {
+                "answer": "linspace",
+                "correct": false
+            },
+            {
+                "answer": "numpy",
+                "correct": true
+            },
+            {
+                "answer": "tanpy",
+                "correct": false
+            }
+        ],
+        "tag": "packages numpy",
+        "lecture_file": "00_intro"
+    },
+    {
+        "question": "Which of the following is not a numpy constant?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "np.inf",
+                "correct": false
+            },
+            {
+                "answer": "np.pi",
+                "correct": false
+            },
+            {
+                "answer": "np.zero",
+                "correct": true
+            },
+            {
+                "answer": "np.PINF",
+                "correct": false
+            }
+        ],
+        "tag": "packages numpy",
+        "lecture_file": "00_intro"
+    },
+    {
+        "question": "Which of the following is not a matplotlib function?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "show()",
+                "correct": false
+            },
+            {
+                "answer": "title()",
+                "correct": false
+            },
+            {
+                "answer": "subplot()",
+                "correct": false
+            },
+            {
+                "answer": "x()",
+                "correct": true
+            }
+        ],
+        "tag": "packages matplotlib",
+        "lecture_file": "00_intro"
+    },
+    {
+        "question": "Matplotlib library can be used to generate",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "2D plots",
+                "correct": false
+            },
+            {
+                "answer": "3D plots",
+                "correct": false
+            },
+            {
+                "answer": "Scatter plots",
+                "correct": false
+            },
+            {
+                "answer": "all of the above",
+                "correct": true
+            }
+        ],
+        "tag": "packages matplotlib",
+        "lecture_file": "00_intro"
+    },
+    {
+        "question": "Which of the following are scipy.integrate functions?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "trapz()",
+                "correct": false
+            },
+            {
+                "answer": "solve_bvp()",
+                "correct": false
+            },
+            {
+                "answer": "solve_ivp()",
+                "correct": false
+            },
+            {
+                "answer": "all of the above",
+                "correct": true
+            }
+        ],
+        "tag": "packages scipy",
+        "lecture_file": "00_intro"
+    },
+    {
+        "question": "Our motivation to use Python is mainly for",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "To learn programming",
+                "correct": false
+            },
+            {
+                "answer": "Scientific computing",
+                "correct": true
+            },
+            {
+                "answer": "Developing web applications",
+                "correct": false
+            },
+            {
+                "answer": "None of the above",
+                "correct": false
+            }
+        ],
+        "tag": "python",
+        "lecture_file": "00_intro"
+    },
+    {
+        "question": "Which of the following would not run a cell in Jupyter Lab?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Ctrl+Enter for Code",
+                "correct": false
+            },
+            {
+                "answer": "Enter",
+                "correct": true
+            },
+            {
+                "answer": "Shift+Enter for code and markdown",
+                "correct": false
+            },
+            {
+                "answer": "all of the above",
+                "correct": false
+            }
+        ],
+        "tag": "jupyter",
+        "lecture_file": "00_intro"
+    },
+    {
+        "question": "Markdown cells can",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "embed HTML",
+                "correct": false
+            },
+            {
+                "answer": "embed Images",
+                "correct": false
+            },
+            {
+                "answer": "embed LateX",
+                "correct": false
+            },
+            {
+                "answer": "all of the above",
+                "correct": true
+            }
+        ],
+        "tag": "python jupyter",
+        "lecture_file": "01_jupyter"
+    },
+    {
+        "question": "Writing bold text in markdown is achieved by",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "*text*",
+                "correct": false
+            },
+            {
+                "answer": "<bold>text<bold>",
+                "correct": false
+            },
+            {
+                "answer": "**text**",
+                "correct": true
+            },
+            {
+                "answer": "_text_",
+                "correct": false
+            }
+        ],
+        "tag": "python jupyter",
+        "lecture_file": "01_jupyter"
+    },
+    {
+        "question": "Which of the following is not a valid variable name?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "vAR",
+                "correct": false
+            },
+            {
+                "answer": "01_var",
+                "correct": true
+            },
+            {
+                "answer": "_var_",
+                "correct": false
+            },
+            {
+                "answer": "var1",
+                "correct": false
+            }
+        ],
+        "tag": "python",
+        "lecture_file": "01_jupyter"
+    },
+    {
+        "question": "Should a function always receive an argument and return a value to avoid errors?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Must return a value, but not necessary to receive an argument",
+                "correct": false
+            },
+            {
+                "answer": "Must receive an argument, but not necessary to return anything.",
+                "correct": false
+            },
+            {
+                "answer": "Yes; Both are necessary",
+                "correct": false
+            },
+            {
+                "answer": "No; None are necessary.",
+                "correct": true
+            }
+        ],
+        "tag": "functions",
+        "lecture_file": "01_jupyter"
+    },
+    {
+        "question": "What will be printed in the following code:<br><pre><code class=\"lang-python\">b = <span class=\"hljs-number\">1</span><br><span class=\"hljs-function\"><span class=\"hljs-keyword\">def</span> <span class=\"hljs-title\">f</span><span class=\"hljs-params\">(a)</span>:</span><br>    print(b)<br>    x = <span class=\"hljs-number\">2</span> * a<br>    <span class=\"hljs-keyword\">return</span> x<br>print(b)<br>b = f(b)<br>print(b)<br></code></pre>",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "1, 2, 2",
+                "correct": false
+            },
+            {
+                "answer": "1, 1, 2",
+                "correct": true
+            },
+            {
+                "answer": "1, 1, 1",
+                "correct": false
+            },
+            {
+                "answer": "1, 2, 1",
+                "correct": false
+            }
+        ],
+        "tag": "functions",
+        "lecture_file": "01_jupyter"
+    },
+    {
+        "question": "What data type does np.sin([np.pi, 0, -np.pi]) return",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "list",
+                "correct": false
+            },
+            {
+                "answer": "tuple",
+                "correct": false
+            },
+            {
+                "answer": "array",
+                "correct": true
+            },
+            {
+                "answer": "float",
+                "correct": false
+            }
+        ],
+        "tag": "functions numpy",
+        "lecture_file": "01_jupyter"
+    },
+    {
+        "question": "What will be the output of print(f'\\'')",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "'",
+                "correct": true
+            },
+            {
+                "answer": "\\'",
+                "correct": false
+            },
+            {
+                "answer": "\\''",
+                "correct": false
+            },
+            {
+                "answer": "\\\"",
+                "correct": false
+            }
+        ],
+        "tag": "strings",
+        "lecture_file": "01_jupyter"
+    },
+    {
+        "question": "What will be the output of print(f'\\'\\\\')",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "'\\",
+                "correct": true
+            },
+            {
+                "answer": "\\\\\\",
+                "correct": false
+            },
+            {
+                "answer": "\\'\\\\",
+                "correct": false
+            },
+            {
+                "answer": "\\\\",
+                "correct": false
+            }
+        ],
+        "tag": "strings",
+        "lecture_file": "01_jupyter"
+    },
+    {
+        "question": "Which of the following is not a mathematical operation?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "25 % 3",
+                "correct": false
+            },
+            {
+                "answer": "25 // 3",
+                "correct": false
+            },
+            {
+                "answer": "25 ? 3",
+                "correct": true
+            },
+            {
+                "answer": "25 * 3",
+                "correct": false
+            }
+        ],
+        "tag": "python operators",
+        "lecture_file": "01_jupyter"
+    },
+    {
+        "question": "Which is the correct argument in matplotlib to plot data using black circles connected with a solid line?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "ko-",
+                "correct": true
+            },
+            {
+                "answer": "bo-",
+                "correct": false
+            },
+            {
+                "answer": "blo-",
+                "correct": false
+            },
+            {
+                "answer": "bko-",
+                "correct": false
+            }
+        ],
+        "tag": "matplotlib",
+        "lecture_file": "02_integration_1"
+    },
+    {
+        "question": "<p>What will be the output of the following code:</p><br><p><code>x = np.array([4, 3, 2, 1])<br>for I in x:<br>    print(I)</code></p>",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "error",
+                "correct": false
+            },
+            {
+                "answer": "4, 3, 2, 1",
+                "correct": true
+            },
+            {
+                "answer": "1, 2, 3, 4",
+                "correct": false
+            },
+            {
+                "answer": "I, I, I, I",
+                "correct": false
+            }
+        ],
+        "tag": "arrays",
+        "lecture_file": "02_integration_1"
+    },
+    {
+        "question": "Which of the following will give an error?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "np.trapz(y)",
+                "correct": false
+            },
+            {
+                "answer": "np.trapz(y, x, 2)",
+                "correct": false
+            },
+            {
+                "answer": "np.trapz(y, None)",
+                "correct": false
+            },
+            {
+                "answer": "np.trapz(y, None, None)",
+                "correct": true
+            }
+        ],
+        "tag": "numpy",
+        "lecture_file": "02_integration_1"
+    },
+    {
+        "question": "np.trapz() returns a ",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "int",
+                "correct": false
+            },
+            {
+                "answer": "float",
+                "correct": true
+            },
+            {
+                "answer": "array",
+                "correct": false
+            },
+            {
+                "answer": "depends on the input",
+                "correct": false
+            }
+        ],
+        "tag": "numpy",
+        "lecture_file": "02_integration_1"
+    },
+    {
+        "question": "Simpson's method for integration requires ",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "even number of samples",
+                "correct": false
+            },
+            {
+                "answer": "odd number of intervals",
+                "correct": false
+            },
+            {
+                "answer": "even number of intervals",
+                "correct": true
+            },
+            {
+                "answer": "all of the above",
+                "correct": false
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "02_integration_1"
+    },
+    {
+        "question": "In using scipy.integrate.simps, for unequally spaced points",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "the result cannot be exact",
+                "correct": false
+            },
+            {
+                "answer": "the result is always exact",
+                "correct": false
+            },
+            {
+                "answer": "the result is exact only if the target function is of order of 3 or more",
+                "correct": false
+            },
+            {
+                "answer": "the result is exact only if the target function is of order of 2 or less",
+                "correct": true
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "02_integration_1"
+    },
+    {
+        "question": "<p>The correct way to use scipy.integrate.quad to integrate the following function is:<br><code>def f(x, p):<br>    return 2*x - p</code></p>",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "quad(f, x, y, p)",
+                "correct": true
+            },
+            {
+                "answer": "quad(f(,p), y, x)",
+                "correct": false
+            },
+            {
+                "answer": "quad(f(x, p), y, x)",
+                "correct": false
+            },
+            {
+                "answer": "quad(f, y=1, x = 4, p)",
+                "correct": false
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "02_integration_1"
+    },
+    {
+        "question": "Which of the following gives an error",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "ans = quad(f, 0, 4)",
+                "correct": false
+            },
+            {
+                "answer": "ans, = quad(f, 0, 4)",
+                "correct": true
+            },
+            {
+                "answer": "ans, err = quad(f, 0, 4)",
+                "correct": false
+            },
+            {
+                "answer": "ans, _ = quad(f, 0, 4)",
+                "correct": false
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "02_integration_1"
+    },
+    {
+        "question": "For x = np.array([1, 2, 3, 4, 5]), what is x[-2]",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "-1",
+                "correct": false
+            },
+            {
+                "answer": "1",
+                "correct": false
+            },
+            {
+                "answer": "4",
+                "correct": true
+            },
+            {
+                "answer": "5",
+                "correct": false
+            }
+        ],
+        "tag": "arrays",
+        "lecture_file": "02_integration_1"
+    },
+    {
+        "question": "For x = np.array([1, 2, 3, 4, 5]), what is x[::-1]",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "array([5])",
+                "correct": false
+            },
+            {
+                "answer": "array([5, 4, ,3, 2, 1])",
+                "correct": true
+            },
+            {
+                "answer": "array([5, 5, 5, 5, 5 ])",
+                "correct": false
+            },
+            {
+                "answer": "array([-1])",
+                "correct": false
+            }
+        ],
+        "tag": "arrays",
+        "lecture_file": "02_integration_1"
+    },
+    {
+        "question": "Which of the following is not a vectorized function?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "np.sin()",
+                "correct": false
+            },
+            {
+                "answer": "np.sqrt()",
+                "correct": false
+            },
+            {
+                "answer": "np.sum()",
+                "correct": false
+            },
+            {
+                "answer": "all are vectorized functions",
+                "correct": true
+            }
+        ],
+        "tag": "numpy",
+        "lecture_file": "03_fode_1"
+    },
+    {
+        "question": "Which of the following will give a 5 rows x 5 columns 2D array of zeros?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "np.zeros(5, 5)",
+                "correct": false
+            },
+            {
+                "answer": "np.zeros([5, 5])",
+                "correct": true
+            },
+            {
+                "answer": "5*np.zeros(5)",
+                "correct": false
+            },
+            {
+                "answer": "np.five(5)",
+                "correct": false
+            }
+        ],
+        "tag": "numpy",
+        "lecture_file": "03_fode_1"
+    },
+    {
+        "question": "If the first and second derivative of a function are zero, then we have a ",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "global maximum",
+                "correct": false
+            },
+            {
+                "answer": "global minimum",
+                "correct": false
+            },
+            {
+                "answer": "saddle point",
+                "correct": false
+            },
+            {
+                "answer": "cannot say",
+                "correct": true
+            }
+        ],
+        "tag": "derivative",
+        "lecture_file": "03_fode_1"
+    },
+    {
+        "question": "How to plot the legend in the lower left corner of a matplotlib plot?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "plt.legend(loc = 3)",
+                "correct": true
+            },
+            {
+                "answer": "plt.lower_left('legend')",
+                "correct": false
+            },
+            {
+                "answer": "plt.loc('lower left')",
+                "correct": false
+            },
+            {
+                "answer": "plt.legend('3')",
+                "correct": false
+            }
+        ],
+        "tag": "matplotlib",
+        "lecture_file": "03_fode_1"
+    },
+    {
+        "question": "$5 dy/dx - y*e^x + 5*sin(x) = 0$ ; is a",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "homogeneous first-order linear equation",
+                "correct": false
+            },
+            {
+                "answer": "non-homogeneous first order linear equation",
+                "correct": true
+            },
+            {
+                "answer": "non-homogeneous first order non-linear equation",
+                "correct": false
+            },
+            {
+                "answer": "homogeneous first-order non-linear equation",
+                "correct": false
+            }
+        ],
+        "tag": "derivative",
+        "lecture_file": "03_fode_1"
+    },
+    {
+        "question": "The values at which the function 'f' was evaluated when using sol = solve_ivp(f) can be read with",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "sol.x",
+                "correct": false
+            },
+            {
+                "answer": "sol.X",
+                "correct": false
+            },
+            {
+                "answer": "sol.t",
+                "correct": true
+            },
+            {
+                "answer": "sol",
+                "correct": false
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "03_fode_1"
+    },
+    {
+        "question": "Which of the following does not give an error?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "solve_ivp(f, t_span = (0,1), y0 = y0, t_eval = np.linspace(0, 2))",
+                "correct": false
+            },
+            {
+                "answer": "solve_ivp(f, t_span = (0,1), y0)",
+                "correct": false
+            },
+            {
+                "answer": "solve_ivp(f, y0 = y0, t_eval = np.linspace(0,1))",
+                "correct": false
+            },
+            {
+                "answer": "solve_ivp(f, t_span = [0,1], y0 = y0)",
+                "correct": true
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "03_fode_1"
+    },
+    {
+        "question": "A solve_ivp() event occurs when the value the event function",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "becomes positive",
+                "correct": false
+            },
+            {
+                "answer": "is equal to zero",
+                "correct": true
+            },
+            {
+                "answer": "crosses the event value",
+                "correct": false
+            },
+            {
+                "answer": "becomes negative",
+                "correct": false
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "03_fode_1"
+    },
+    {
+        "question": "solve_ivp() makes solving first-order differential equations easier by",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "using an adaptive step size to increase the efficiency of the algorithm",
+                "correct": false
+            },
+            {
+                "answer": "converging to an acceptable value",
+                "correct": false
+            },
+            {
+                "answer": "helping to find the value of the independent variable at an instance of the dependent variable",
+                "correct": false
+            },
+            {
+                "answer": "all of the above",
+                "correct": true
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "03_fode_1"
+    },
+    {
+        "question": "Which of the following methods is not available in the solve_ivp() function?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Euler's Method",
+                "correct": true
+            },
+            {
+                "answer": "Runge-Kutta",
+                "correct": false
+            },
+            {
+                "answer": "Backward Differentiation",
+                "correct": false
+            },
+            {
+                "answer": "LSODA",
+                "correct": false
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "03_fode_1"
+    },
+    {
+        "question": "<p>Given</p><br><pre><code>a = np.linspace(0, 5, 2)<br>b = np.linspace(5, 10, 3)<br>c = np.linspace(10, 15, 5)<br><br>A, _ = np.meshgrid(a, b, c)<br></code></pre><br><p>What is the shape of the array A?</p>",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "(3, 2, 5)",
+                "correct": true
+            },
+            {
+                "answer": "(5, 5, 5)",
+                "correct": false
+            },
+            {
+                "answer": "(2, 3, 5)",
+                "correct": false
+            },
+            {
+                "answer": "(5, 3, 2)",
+                "correct": false
+            }
+        ],
+        "tag": "arrays",
+        "lecture_file": "04_fode_2"
+    },
+    {
+        "question": "<pre><code>A = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])<br>B = np.array([1, 1, 1])<br></code></pre><br><p>What is the shape of 'A+B'?</p>",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "(3, 3)",
+                "correct": true
+            },
+            {
+                "answer": "(1, 3)",
+                "correct": false
+            },
+            {
+                "answer": "(3, 1)",
+                "correct": false
+            },
+            {
+                "answer": "(1, 1)",
+                "correct": false
+            }
+        ],
+        "tag": "arrays",
+        "lecture_file": "04_fode_2"
+    },
+    {
+        "question": "<pre><code>A = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])<br>B = np.array([1])<br></code></pre><br><p>What is the value of 'A+B'?</p>",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "np.array([[2, 2, 3], [5, 5, 6], [8, 8, 9]])",
+                "correct": false
+            },
+            {
+                "answer": "ValueError: operands could not be broadcast together with shapes (3,3) (1,) ",
+                "correct": false
+            },
+            {
+                "answer": "np.array([[2, 3, 4], [5, 6, 7], [8, 9, 10]])",
+                "correct": true
+            },
+            {
+                "answer": "np.array([[2, 3, 4], [4, 5, 6], [7, 8, 9]])",
+                "correct": false
+            }
+        ],
+        "tag": "arrays",
+        "lecture_file": "04_fode_2"
+    },
+    {
+        "question": "Which of the following objective functions will give a correct answer when used with solve_ivp() to solve coupled differential equations?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "<pre><code>def f(t, Sa, Sb):<br>    dSa / dt = eq_1<br>    dSb / dt = eq_2<br>    return(Sa, Sb)<br></code></pre>",
+                "correct": false
+            },
+            {
+                "answer": "<pre><code>def f(t, S):<br>    Sa = S[0]<br>    Sb = S[1]<br>    dSa / dt = eq_1<br>    dSb / dt = eq_2<br>    return (dSa/dt, dSb/dt)<br></code></pre>",
+                "correct": true
+            },
+            {
+                "answer": "<pre><code>def f(t, S):<br>    Sa = S[0]<br>    Sb = S[1]<br>    dSa / dt = eq_1<br>    dSb / dt = eq_2<br>    return (S)<br></code></pre>",
+                "correct": false
+            },
+            {
+                "answer": "<pre><code>def f(t):<br>    dSa / dt = eq_1<br>    dSb / dt = eq_2<br>    return (dSa/dt, dSb/dt)<br></code></pre>",
+                "correct": false
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "04_fode_2"
+    },
+    {
+        "question": "Which of the following are coupled differential equations:<br><br>a: dw/dt = x + y<br>b: dx/dt = 2x + 4w<br>c: dy/dt = x",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "a, b",
+                "correct": false
+            },
+            {
+                "answer": "b, c",
+                "correct": false
+            },
+            {
+                "answer": "a, c",
+                "correct": false
+            },
+            {
+                "answer": "a, b, c",
+                "correct": true
+            }
+        ],
+        "tag": "ode",
+        "lecture_file": "04_fode_2"
+    },
+    {
+        "question": "What will be the value of b: <br><br>a = np.linspace(6, 10, 5)<br>b = *a",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Memory address of 'a'",
+                "correct": false
+            },
+            {
+                "answer": "6.0  7.0  8.0  9.0  10.0",
+                "correct": false
+            },
+            {
+                "answer": "SyntaxError",
+                "correct": true
+            },
+            {
+                "answer": "np.array([6.0, 7.0, 8.0, 9.0, 10.0])",
+                "correct": false
+            }
+        ],
+        "tag": "arrays",
+        "lecture_file": "04_fode_2"
+    },
+    {
+        "question": "What is the output of:<br><br>a = np.linspace(6, 10, 5)<br>print(*a)",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Memory address of 'a'",
+                "correct": false
+            },
+            {
+                "answer": "6.0  7.0  8.0  9.0  10.0",
+                "correct": true
+            },
+            {
+                "answer": "SyntaxError",
+                "correct": false
+            },
+            {
+                "answer": "np.array([6.0, 7.0, 8.0, 9.0, 10.0])",
+                "correct": false
+            }
+        ],
+        "tag": "arrays",
+        "lecture_file": "04_fode_2"
+    },
+    {
+        "question": "Which of the following are coupled differential equations:<br><br>a: dw/dt = x + w<br>b: dx/dt = 2x + 4w<br>c: dy/dt = 5",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "none are coupled",
+                "correct": false
+            },
+            {
+                "answer": "a, b, c",
+                "correct": false
+            },
+            {
+                "answer": "b, c",
+                "correct": false
+            },
+            {
+                "answer": "a, b",
+                "correct": true
+            }
+        ],
+        "tag": "ode",
+        "lecture_file": "04_fode_2"
+    },
+    {
+        "question": "Which of the following is true about matplotlib.pyplot.quiver()?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "plt.quiver() requires the values of X and Y both for arrow locations",
+                "correct": false
+            },
+            {
+                "answer": "cannot be used in 3D",
+                "correct": true
+            },
+            {
+                "answer": "requires normalized derivative values",
+                "correct": false
+            },
+            {
+                "answer": "can be used in 2D and 3D both",
+                "correct": false
+            }
+        ],
+        "tag": "matplotlib",
+        "lecture_file": "04_fode_2"
+    },
+    {
+        "question": "What will be the output of X[:, 2], where<br>X = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "array([4, 5, 6])",
+                "correct": false
+            },
+            {
+                "answer": "array([2, 5, 8])",
+                "correct": false
+            },
+            {
+                "answer": "array([1, 2])",
+                "correct": false
+            },
+            {
+                "answer": "array([3, 6, 9])",
+                "correct": true
+            }
+        ],
+        "tag": "arrays",
+        "lecture_file": "04_fode_2"
+    },
+    {
+        "question": "Interpret sol.status = 1, where, sol = solve_ivp()",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "The solver reached the end of the integration interval.",
+                "correct": false
+            },
+            {
+                "answer": "A termination event occurred.",
+                "correct": true
+            },
+            {
+                "answer": "A non-termination event was evaluated.",
+                "correct": false
+            },
+            {
+                "answer": "all of the above",
+                "correct": false
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "05_nth_odes"
+    },
+    {
+        "question": "Assigning 'max_step = None' in solve_ivp() results in",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Error",
+                "correct": true
+            },
+            {
+                "answer": "The solver would determine the step size.",
+                "correct": false
+            },
+            {
+                "answer": "The step size will be infinite.",
+                "correct": false
+            },
+            {
+                "answer": "Need to specify 't_eval' to avoid an error.",
+                "correct": false
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "05_nth_odes"
+    },
+    {
+        "question": "matplotlib.pyplot.axis('equal') results in",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "a square plot",
+                "correct": false
+            },
+            {
+                "answer": "equal scaling of the axes by changing axis limits",
+                "correct": true
+            },
+            {
+                "answer": "limits the axes to the data range",
+                "correct": false
+            },
+            {
+                "answer": "equal scaling of the axes by changing dimensions of the plot box",
+                "correct": false
+            }
+        ],
+        "tag": "matplotlib coding",
+        "lecture_file": "05_nth_odes"
+    },
+    {
+        "question": "Assigning 'event_function.direction = -5' in solve_ivp() registers an event when",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "event value goes from positive to negative, that is, a maximum",
+                "correct": true
+            },
+            {
+                "answer": "Error",
+                "correct": false
+            },
+            {
+                "answer": "event value goes from negative to positive, that is, a maximum",
+                "correct": false
+            },
+            {
+                "answer": "event value goes from negative to positive, that is, a minimum",
+                "correct": false
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "05_nth_odes"
+    },
+    {
+        "question": "Assigning 'event_function.direction = 0' in solve_ivp() registers an event when",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "event value goes from positive to negative, that is, a maximum",
+                "correct": false
+            },
+            {
+                "answer": "event value goes from negative to positive, that is, a minimum",
+                "correct": false
+            },
+            {
+                "answer": "Both, a and b",
+                "correct": true
+            },
+            {
+                "answer": "None of the above",
+                "correct": false
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "05_nth_odes"
+    },
+    {
+        "question": "When 'dense_output = True' in 'sol = solve_ivp()', to integrate the function 'f',  then sol.sol(1)",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "would evaluate the solution at 1 if an event occurs at t=1.",
+                "correct": false
+            },
+            {
+                "answer": "would evaluate the function f at 1 if an event occurs at t=1.",
+                "correct": false
+            },
+            {
+                "answer": "evaluates the function f at t=1, irrespective of whether it is an event or not.",
+                "correct": false
+            },
+            {
+                "answer": "evaluates the solution at t=1, irrespective of whether it is an event of not.",
+                "correct": true
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "05_nth_odes"
+    },
+    {
+        "question": "What is the output of: <br><br>a = np.array([[1, 2, 3], [1, 2, 3]])<br>np.diff(a, axis = 0).shape",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "(2, 2)",
+                "correct": false
+            },
+            {
+                "answer": "(2, 3)",
+                "correct": false
+            },
+            {
+                "answer": "(1, 3)",
+                "correct": true
+            },
+            {
+                "answer": "(1, 5)",
+                "correct": false
+            }
+        ],
+        "tag": "numpy coding",
+        "lecture_file": "05_nth_odes"
+    },
+    {
+        "question": "What will be the output of: <br><br>p = 0<br>while(p<0):<br>    print(p)<br>    p -= 1",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "[0, -1]",
+                "correct": false
+            },
+            {
+                "answer": "[-1]",
+                "correct": false
+            },
+            {
+                "answer": "loop runs for infinite iterations",
+                "correct": false
+            },
+            {
+                "answer": "no output as loop does not run",
+                "correct": true
+            }
+        ],
+        "tag": "loops coding",
+        "lecture_file": "05_nth_odes"
+    },
+    {
+        "question": "What will be the output of:<br><br>l = [1, 2, 3]<br>a = l.reverse()<br>print(a)",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "[3, 2 ,1]",
+                "correct": false
+            },
+            {
+                "answer": "None",
+                "correct": true
+            },
+            {
+                "answer": "[]",
+                "correct": false
+            },
+            {
+                "answer": "[1, 2, 3]",
+                "correct": false
+            }
+        ],
+        "tag": "lists coding",
+        "lecture_file": "05_nth_odes"
+    },
+    {
+        "question": "d^3y/dx^3 = 0<br>is equivalent to which of the following systems of differential equations?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "dy/dx = 0<br>   da/dx = 0<br>   db/dx = 0",
+                "correct": false
+            },
+            {
+                "answer": "dy/dx = da/dx = db/dx",
+                "correct": false
+            },
+            {
+                "answer": "dy/dx = a<br>   da/dx = b<br>   db/dx = y",
+                "correct": false
+            },
+            {
+                "answer": "dy/dx = a<br>   da/dx = b<br>   db/dx = 0",
+                "correct": true
+            }
+        ],
+        "tag": "ode",
+        "lecture_file": "05_nth_odes"
+    },
+    {
+        "question": "Which matplotlib function plots a vertical line at a given x-coordinate?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "plt.axhline(x)",
+                "correct": false
+            },
+            {
+                "answer": "plt.axvline(x)",
+                "correct": true
+            },
+            {
+                "answer": "plt.plot(x)",
+                "correct": false
+            },
+            {
+                "answer": "plt.vert(x)",
+                "correct": false
+            }
+        ],
+        "tag": "coding matplotlib",
+        "lecture_file": "07_nla_1"
+    },
+    {
+        "question": "Which of the following is not a non-linear equation?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "2x  = 10x^2 - 8",
+                "correct": false
+            },
+            {
+                "answer": "x^2  = sin(x)",
+                "correct": false
+            },
+            {
+                "answer": "(x^2 - 5x + 6) / (x - 3) = 0",
+                "correct": true
+            },
+            {
+                "answer": "x + sin(x) = 0",
+                "correct": false
+            }
+        ],
+        "tag": "nla",
+        "lecture_file": "07_nla_1"
+    },
+    {
+        "question": "How many solutions does the equation '2x^2 - x - 15 = 0' have?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "1",
+                "correct": false
+            },
+            {
+                "answer": "2",
+                "correct": true
+            },
+            {
+                "answer": "3",
+                "correct": false
+            },
+            {
+                "answer": "0",
+                "correct": false
+            }
+        ],
+        "tag": "nla",
+        "lecture_file": "07_nla_1"
+    },
+    {
+        "question": "Newton-Raphson method does not always work because",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "the initial guess needs to be right",
+                "correct": false
+            },
+            {
+                "answer": "the first derivative can be discontinuous at the root",
+                "correct": false
+            },
+            {
+                "answer": "the first derivative can be undefined at the root",
+                "correct": false
+            },
+            {
+                "answer": "all of the above",
+                "correct": true
+            }
+        ],
+        "tag": "nla newton_raphson",
+        "lecture_file": "07_nla_1"
+    },
+    {
+        "question": "<p>What will be the output of f(5, p = 2), where:</p>\n<pre><code>def f(x, p = 10):\n    z = x*p\n\n    print(z)\n</code></pre>",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "10",
+                "correct": true
+            },
+            {
+                "answer": "Error",
+                "correct": false
+            },
+            {
+                "answer": "50",
+                "correct": false
+            },
+            {
+                "answer": "20",
+                "correct": false
+            }
+        ],
+        "tag": "functions coding",
+        "lecture_file": "07_nla_1"
+    },
+    {
+        "question": "Which of the following finds the 3rd derivative of a function f at the point x0, using scipy.misc.derivative?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "derivative(f, x0, 3)",
+                "correct": false
+            },
+            {
+                "answer": "(derivative(f, x0, 1))^3",
+                "correct": false
+            },
+            {
+                "answer": "derivative(f, x0, 1, 3)",
+                "correct": true
+            },
+            {
+                "answer": "None of the above",
+                "correct": false
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "07_nla_1"
+    },
+    {
+        "question": "At the solution, the function 'f' in fsolve(f, 5) should return",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "0",
+                "correct": true
+            },
+            {
+                "answer": "5",
+                "correct": false
+            },
+            {
+                "answer": "1",
+                "correct": false
+            },
+            {
+                "answer": "True ",
+                "correct": false
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "07_nla_1"
+    },
+    {
+        "question": "<p>What would be the signature of fsolve() where the objective function is:</p>\n<pre><code>def f(x, P):\n    p1, p2 = P\n    return p1*x + p2\n</code></pre>",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "fsolve(f, x0, (p1, p2))",
+                "correct": false
+            },
+            {
+                "answer": "fsolve(f(p1, p2), x0)",
+                "correct": false
+            },
+            {
+                "answer": "fsolve(f(P), x0)",
+                "correct": false
+            },
+            {
+                "answer": "fsolve(f, x0, P)",
+                "correct": true
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "07_nla_1"
+    },
+    {
+        "question": "What would be the value of sol.x, when \"sol = fsolve(f, x0, full_output = 1)\" returns the status not equal to 1?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "The result of the last iteration",
+                "correct": true
+            },
+            {
+                "answer": "0",
+                "correct": false
+            },
+            {
+                "answer": "1",
+                "correct": false
+            },
+            {
+                "answer": "The solution",
+                "correct": false
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "07_nla_1"
+    },
+    {
+        "question": "What will be the output of:<br><br>[x for x in range(0, 10) if x % 2 == 0]",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "[0, 2, 4, 6, 8, 10]",
+                "correct": false
+            },
+            {
+                "answer": "np.array([0, 2, 4, 6, 8])",
+                "correct": false
+            },
+            {
+                "answer": "[0, 2, 4, 6, 8]",
+                "correct": true
+            },
+            {
+                "answer": "[2, 4, 6, 8, 10]",
+                "correct": false
+            }
+        ],
+        "tag": "lists coding",
+        "lecture_file": "07_nla_1"
+    },
+    {
+        "question": "What will be the input to np.roots() to find the roots of the equation:<br>$5x^4 - 10x^2 + 20x - 50 = 0$",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "[5, -10, 20, -50]",
+                "correct": false
+            },
+            {
+                "answer": "[1, -2, 4, 10]",
+                "correct": false
+            },
+            {
+                "answer": "[5, -10, 20, -50, 0]",
+                "correct": false
+            },
+            {
+                "answer": "[5, 0, -10, 20, -50]",
+                "correct": true
+            }
+        ],
+        "tag": "numpy",
+        "lecture_file": "08_nla_2"
+    },
+    {
+        "question": "p = [1, -5, 6]<br>x = np.linspace(0, 10, 20)<br>y = np.polyval(p, x)<br>y.shape = ?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "(50,)",
+                "correct": false
+            },
+            {
+                "answer": "(20,)",
+                "correct": true
+            },
+            {
+                "answer": "(10,)",
+                "correct": false
+            },
+            {
+                "answer": "(3,)",
+                "correct": false
+            }
+        ],
+        "tag": "numpy",
+        "lecture_file": "08_nla_2"
+    },
+    {
+        "question": "What will be the output of:<br>np.polyder([5, 0, 3, 5])",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "np.array([15, 2, 3])",
+                "correct": false
+            },
+            {
+                "answer": "np.array([15, 3])",
+                "correct": false
+            },
+            {
+                "answer": "np.array([15, 3, 0])",
+                "correct": false
+            },
+            {
+                "answer": "np.array([15, 0, 3])",
+                "correct": true
+            }
+        ],
+        "tag": "numpy",
+        "lecture_file": "08_nla_2"
+    },
+    {
+        "question": "What will be the output of:<br>p = [1]<br>pint = np.polyint(p, 2, [1, 4])<br>print(pint)",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "[1.0, 1.0]",
+                "correct": false
+            },
+            {
+                "answer": "[0.5, 1.0, 4.0]",
+                "correct": true
+            },
+            {
+                "answer": "[0.167, 1.0, 4.0]",
+                "correct": false
+            },
+            {
+                "answer": "Error",
+                "correct": false
+            }
+        ],
+        "tag": "numpy",
+        "lecture_file": "08_nla_2"
+    },
+    {
+        "question": "If 'p = np.poly1d([1, -5, 6])'<br>then 'print(p.r)' will output",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "[3, 2]",
+                "correct": true
+            },
+            {
+                "answer": "Error",
+                "correct": false
+            },
+            {
+                "answer": "False",
+                "correct": false
+            },
+            {
+                "answer": "True",
+                "correct": false
+            }
+        ],
+        "tag": "numpy",
+        "lecture_file": "08_nla_2"
+    },
+    {
+        "question": "What will be a possible solution for<br>y = 3x^2 + 6<br>y = 6cos(x)",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "(0, 0)",
+                "correct": false
+            },
+            {
+                "answer": "(6, 1)",
+                "correct": false
+            },
+            {
+                "answer": "(0, 6)",
+                "correct": true
+            },
+            {
+                "answer": "(6, 3)",
+                "correct": false
+            }
+        ],
+        "tag": "matplotlib",
+        "lecture_file": "08_nla_2"
+    },
+    {
+        "question": "How many contour lines will be plotted with:<br>plt.contour(X, Y, Z, levels = 10)",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "11",
+                "correct": true
+            },
+            {
+                "answer": "10",
+                "correct": false
+            },
+            {
+                "answer": "9",
+                "correct": false
+            },
+            {
+                "answer": "50",
+                "correct": false
+            }
+        ],
+        "tag": "matplotlib contour",
+        "lecture_file": "08_nla_2"
+    },
+    {
+        "question": "<p>What is missing from the following objective function to solve a set of linear equations using root:</p>\n<pre><code>def f(P):\n    z1 = 3p + 6 - q + r\n    z2 = 5p + 5 - 2q + r\n    z3 = p - q + 2r\n    return np.array([z1, z2, z3])\n</code></pre>",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "z1, z2, z3 = P",
+                "correct": false
+            },
+            {
+                "answer": "z1+z2+z3 = P",
+                "correct": false
+            },
+            {
+                "answer": "p, q, r = P",
+                "correct": true
+            },
+            {
+                "answer": "P = p, q, r",
+                "correct": false
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "08_nla_2"
+    },
+    {
+        "question": "<p>Using <code>root(f, initial_guess)</code> with the following objective function to solve a set of linear equations:</p>\n<pre><code>def f(p, q, r):\n    z1 = 3p + 6 - q + r\n    z2 = 5p + 5 - 2q + r\n    z3 = p - q + 2r\n    return np.array([z1, z2, z3])\n</code></pre>",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Will give an error",
+                "correct": true
+            },
+            {
+                "answer": "The code would work but give the wrong answer.",
+                "correct": false
+            },
+            {
+                "answer": "The code would work and give the correct  answer.",
+                "correct": false
+            },
+            {
+                "answer": "The code will give the correct answer if we use: 'fsolve(f, p, args = (q, r))'",
+                "correct": false
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "08_nla_2"
+    },
+    {
+        "question": "<p>How many contour lines will be plotted with:</p>\n<pre><code class=\"language-python\">plt.contour(X, Y, Z, levels = np.array([0.1, 0.2, 0.3, -0.1, -0.2, -0.3]))\n</code></pre>",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "6",
+                "correct": false
+            },
+            {
+                "answer": "5",
+                "correct": false
+            },
+            {
+                "answer": "7",
+                "correct": false
+            },
+            {
+                "answer": "Error",
+                "correct": true
+            }
+        ],
+        "tag": "matplotlib contour",
+        "lecture_file": "08_nla_2"
+    },
+    {
+        "question": "Using finite difference method, find the values of y', <br>if y = [3.,  5.,  7.,  9., 11., 13.]<br>h = 0.2, and the end points are at 1, 15.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "[10, 10, 10, 10, 10, 10]",
+                "correct": true
+            },
+            {
+                "answer": "2",
+                "correct": false
+            },
+            {
+                "answer": "[2, 2, 2, 2, 2, 2]",
+                "correct": false
+            },
+            {
+                "answer": "[0, 0, 0, 0, 0, 0]",
+                "correct": false
+            }
+        ],
+        "tag": "bvp finite_difference",
+        "lecture_file": "09_bvp"
+    },
+    {
+        "question": "Using finite difference method, find the value of y\", <br>if y = [0.87, 0.87]<br>h = 1.0, and the end points are at 0, 0.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "[-0.87, -0.87]",
+                "correct": false
+            },
+            {
+                "answer": "[-0.87, -0.98]",
+                "correct": true
+            },
+            {
+                "answer": "[-0.98, -0.98]",
+                "correct": false
+            },
+            {
+                "answer": "[0.98, 0.98]",
+                "correct": false
+            }
+        ],
+        "tag": "bvp finite_difference",
+        "lecture_file": "09_bvp"
+    },
+    {
+        "question": "The argument 'edge_order' in np.gradient() determines",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "The order of the derivative",
+                "correct": false
+            },
+            {
+                "answer": "The gradient calculation method",
+                "correct": false
+            },
+            {
+                "answer": "The number of points considered to calculate the gradient at the boundary",
+                "correct": true
+            },
+            {
+                "answer": "The axis of the derivative",
+                "correct": false
+            }
+        ],
+        "tag": "numpy",
+        "lecture_file": "09_bvp"
+    },
+    {
+        "question": "Express the following equation as a set of linear differential equations:<br>d^2y/dx^2 = 3x + 5",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "du/dx = y<br>   dy/dx = 3x + 5",
+                "correct": false
+            },
+            {
+                "answer": "du/dx = y<br>   du/dx = 3x + 5",
+                "correct": false
+            },
+            {
+                "answer": "dy/dx = 0<br>   dydx = 3x + 5",
+                "correct": false
+            },
+            {
+                "answer": "dy/dx = u<br>   du/dx = 3x + 5",
+                "correct": true
+            }
+        ],
+        "tag": "ode",
+        "lecture_file": "09_bvp"
+    },
+    {
+        "question": "When solving d^3y/dx^3 = 0 using solve_bvp(bvp, bc, X, Y);<br>What should be the shape of Y?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "(3, len(X))",
+                "correct": true
+            },
+            {
+                "answer": "(len(X), 3)",
+                "correct": false
+            },
+            {
+                "answer": "(3, 3)",
+                "correct": false
+            },
+            {
+                "answer": "(len(X), len(X))",
+                "correct": false
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "09_bvp"
+    },
+    {
+        "question": "y(t_0) = 1<br>y'(t_0) = 0<br>above expressions would be the conditions for a ",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Boundary value problem using solve_bvp()",
+                "correct": false
+            },
+            {
+                "answer": "Initial value problem using solve_ivp()",
+                "correct": true
+            },
+            {
+                "answer": "Both ",
+                "correct": false
+            },
+            {
+                "answer": "None of the above",
+                "correct": false
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "09_bvp"
+    },
+    {
+        "question": "<p>The following boundary condition function used for solve_bvp() suggests that:</p>\n<pre><code class=\"language-python\">def bc(Ua, Ub):\n    u1a, u2a, u3a = Ua\n    u1b, u2b, u3b = Ub\n    return [u1a, u2b]\n</code></pre>",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "This function is not correctly written",
+                "correct": false
+            },
+            {
+                "answer": "There are 3 boundaries in this system of ODEs",
+                "correct": false
+            },
+            {
+                "answer": "There are 3 dependent variables  in this system of ODEs",
+                "correct": true
+            },
+            {
+                "answer": "There are 3 independent variables  in this system of ODEs",
+                "correct": false
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "09_bvp"
+    },
+    {
+        "question": "A set of linear differential equations can be solved using",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "solve_bvp() if we know the boundary conditions",
+                "correct": false
+            },
+            {
+                "answer": "With fsolve() and an integration function if we have a good initial guess",
+                "correct": false
+            },
+            {
+                "answer": "solve_ivp() if we know the initial conditions",
+                "correct": false
+            },
+            {
+                "answer": "All of the above",
+                "correct": true
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "09_bvp"
+    },
+    {
+        "question": "The initial guess will always determine the behaviour (shape) of the final function obtained through solve_bvp()",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "FALSE",
+                "correct": true
+            },
+            {
+                "answer": "TRUE",
+                "correct": false
+            },
+            {
+                "answer": "-",
+                "correct": false
+            },
+            {
+                "answer": "-",
+                "correct": false
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "09_bvp"
+    },
+    {
+        "question": "The accuracy of the finite differences method can be increased by",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "improving the approximations at the boundaries",
+                "correct": false
+            },
+            {
+                "answer": "using a finer discretization",
+                "correct": false
+            },
+            {
+                "answer": "using a spatially variable number of nodes to account for complexities in certain regions while avoiding extra computation in the simpler regions",
+                "correct": false
+            },
+            {
+                "answer": "All of the above",
+                "correct": true
+            }
+        ],
+        "tag": "finite_difference bvp",
+        "lecture_file": "09_bvp"
+    },
+    {
+        "question": "What will be the output of <br>a = [1, 2, 3]; b = 5<br>print(max(*a, b))",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "TypeError: '<' not supported between instances of 'int' and 'list'",
+                "correct": false
+            },
+            {
+                "answer": "a",
+                "correct": false
+            },
+            {
+                "answer": "5",
+                "correct": true
+            },
+            {
+                "answer": "b",
+                "correct": false
+            }
+        ],
+        "tag": "python",
+        "lecture_file": "10_min_max"
+    },
+    {
+        "question": "What will be the output of <br>a = [1, 2, 3]; b = 5<br>print(min(a, b))",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "TypeError: '<' not supported between instances of 'int' and 'list'",
+                "correct": true
+            },
+            {
+                "answer": "a",
+                "correct": false
+            },
+            {
+                "answer": "1",
+                "correct": false
+            },
+            {
+                "answer": "b",
+                "correct": false
+            }
+        ],
+        "tag": "python",
+        "lecture_file": "10_min_max"
+    },
+    {
+        "question": "What will be the output of <br>a = [[1, 2, 3], [-1, -2, -3]]<br>print(np.argmin(a, axis = 1))",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "-3",
+                "correct": false
+            },
+            {
+                "answer": "[5]",
+                "correct": false
+            },
+            {
+                "answer": "[0, 2]",
+                "correct": true
+            },
+            {
+                "answer": "[-1, -2, -3]",
+                "correct": false
+            }
+        ],
+        "tag": "numpy",
+        "lecture_file": "10_min_max"
+    },
+    {
+        "question": "A saddle point is always located at a local minimum and local maximum",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "TRUE",
+                "correct": true
+            },
+            {
+                "answer": "FALSE",
+                "correct": false
+            },
+            {
+                "answer": "Only local minimum",
+                "correct": false
+            },
+            {
+                "answer": "Only local maximum",
+                "correct": false
+            }
+        ],
+        "tag": "derivative",
+        "lecture_file": "10_min_max"
+    },
+    {
+        "question": "Which of the following functions from scipy are useful for finding the minimum",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "minimize",
+                "correct": false
+            },
+            {
+                "answer": "fmin",
+                "correct": false
+            },
+            {
+                "answer": "solve_ivp",
+                "correct": false
+            },
+            {
+                "answer": "All of the above",
+                "correct": true
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "10_min_max"
+    },
+    {
+        "question": "Finding the global extrema using scipy.optimize.minimize depends on",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "The initial guess",
+                "correct": false
+            },
+            {
+                "answer": "The solver method",
+                "correct": false
+            },
+            {
+                "answer": "Constraints",
+                "correct": false
+            },
+            {
+                "answer": "All of the above",
+                "correct": true
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "10_min_max"
+    },
+    {
+        "question": "Accuracy of finding minima using the graphical method is mainly limited by which of the following factors:<br>a: Computational power available<br>b: Discretization of the function<br>c: Plotting library",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "a",
+                "correct": false
+            },
+            {
+                "answer": "a, b",
+                "correct": true
+            },
+            {
+                "answer": "a, b, c",
+                "correct": false
+            },
+            {
+                "answer": "b, c",
+                "correct": false
+            }
+        ],
+        "tag": "derivative",
+        "lecture_file": "10_min_max"
+    },
+    {
+        "question": "The number of iterations performed by the solver when using <br>sol = minimize(f, guess)<br>can be found with",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "sol.int",
+                "correct": false
+            },
+            {
+                "answer": "sol.nit",
+                "correct": true
+            },
+            {
+                "answer": "sol.iter",
+                "correct": false
+            },
+            {
+                "answer": "len(sol.x)",
+                "correct": false
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "10_min_max"
+    },
+    {
+        "question": "If f(x) is discontinous at the point x=a, then",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "There is a global minimum at 'a'",
+                "correct": false
+            },
+            {
+                "answer": "There is a local maximum at 'a'",
+                "correct": false
+            },
+            {
+                "answer": "There can be either a local maximum or a local minimum at 'a'",
+                "correct": true
+            },
+            {
+                "answer": "There is a global maximum at 'a'",
+                "correct": false
+            }
+        ],
+        "tag": "derivative",
+        "lecture_file": "10_min_max"
+    },
+    {
+        "question": "Reducing the spacing (dx) between points to calculate the derivative using scipy.misc.derivative() might result in",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Low accuracy",
+                "correct": false
+            },
+            {
+                "answer": "High accuracy with a risk of numerical instability",
+                "correct": true
+            },
+            {
+                "answer": "High accuracy and numerical stability",
+                "correct": false
+            },
+            {
+                "answer": "Low accuracy and numerical instability",
+                "correct": false
+            }
+        ],
+        "tag": "scipy",
+        "lecture_file": "10_min_max"
+    },
+    {
+        "question": "When using minimize() for regression, which of the following objective functions would cause the model to shift towards the outliers to a greater extent than the rest:<br>a: (y_pred - y)^2<br>b: (y_pred - y)<br>c: |ypred - y|",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "a",
+                "correct": true
+            },
+            {
+                "answer": "b",
+                "correct": false
+            },
+            {
+                "answer": "c",
+                "correct": false
+            },
+            {
+                "answer": "All will equally affect the model",
+                "correct": false
+            }
+        ],
+        "tag": "objective_function regression",
+        "lecture_file": "11_regression"
+    },
+    {
+        "question": "Which of the following is a linear regression model:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "y = e^x + x",
+                "correct": false
+            },
+            {
+                "answer": "y = sin(x) + 5",
+                "correct": false
+            },
+            {
+                "answer": "y = x + x^2",
+                "correct": false
+            },
+            {
+                "answer": "All of the above",
+                "correct": true
+            }
+        ],
+        "tag": "regression",
+        "lecture_file": "11_regression"
+    },
+    {
+        "question": "A linear regression model which can correctly generalise the trend in the data has",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "sum squared errors = 0",
+                "correct": false
+            },
+            {
+                "answer": "lowest possible sum squared errors but not necessarily zero",
+                "correct": true
+            },
+            {
+                "answer": "highest sum squared error",
+                "correct": false
+            },
+            {
+                "answer": "sum of errors = 0",
+                "correct": false
+            }
+        ],
+        "tag": "regression objective_function",
+        "lecture_file": "11_regression"
+    },
+    {
+        "question": "Regression is a useful method to find a model which generalizes a data set because",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "It provides parameters which can have physical significance",
+                "correct": false
+            },
+            {
+                "answer": "It can help to identify the important variables affecting a system ",
+                "correct": false
+            },
+            {
+                "answer": "It is not a black-box model",
+                "correct": false
+            },
+            {
+                "answer": "All of the above",
+                "correct": true
+            }
+        ],
+        "tag": "regression",
+        "lecture_file": "11_regression"
+    },
+    {
+        "question": "Which of the following statements are true:<br>Linear regression is limiting beacause:<br>a: It assumes a linear relationship between the variables which may not always be the case<br>b: It is affected by outliers<br>c: It is overly simplistic and would always fit to noisy observations",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "a, b",
+                "correct": true
+            },
+            {
+                "answer": "a, b, c",
+                "correct": false
+            },
+            {
+                "answer": "a, c",
+                "correct": false
+            },
+            {
+                "answer": "b, c",
+                "correct": false
+            }
+        ],
+        "tag": "regression",
+        "lecture_file": "11_regression"
+    },
+    {
+        "question": "initial_guess = [a0, b0, c0, d0]<br>pars, pcov = curve_fit(func, x, y, p0=initial_guess)<br><br>What is the variance for the parameter 'c'?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "np.sqrt(np.diag(pars))[2]",
+                "correct": false
+            },
+            {
+                "answer": "np.sqrt(np.diag(pcov))[2]",
+                "correct": false
+            },
+            {
+                "answer": "np.diag(pcov)[2]",
+                "correct": true
+            },
+            {
+                "answer": "np.diag(pars)[2]",
+                "correct": false
+            }
+        ],
+        "tag": "scipy uncertainty variance",
+        "lecture_file": "11_regression"
+    },
+    {
+        "question": "An increase in the number of measurements (data points) will result in",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Narrower confidence intervals for the average value",
+                "correct": true
+            },
+            {
+                "answer": "An increase in the uncertainty of the average value",
+                "correct": false
+            },
+            {
+                "answer": "Broader confidence intervals for the average value",
+                "correct": false
+            },
+            {
+                "answer": "No effect on the confidence intervals",
+                "correct": false
+            }
+        ],
+        "tag": "uncertainty",
+        "lecture_file": "11_regression"
+    },
+    {
+        "question": "Monte Carlo Propagation of Errors has a limited reliability because",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "It assumes the parameters are drawn from a normal distribution",
+                "correct": false
+            },
+            {
+                "answer": "It assumes that the parameter errors are independent of each other",
+                "correct": false
+            },
+            {
+                "answer": "All of the above",
+                "correct": true
+            },
+            {
+                "answer": "None of the above",
+                "correct": false
+            }
+        ],
+        "tag": "uncertainty monte_carlo",
+        "lecture_file": "11_regression"
+    },
+    {
+        "question": "Calculate the degrees of freedom for the model:<br>y = 5 + x1 + 10x2 + 5x3;<br>if we have 10 sample data points",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "5",
+                "correct": false
+            },
+            {
+                "answer": "6",
+                "correct": true
+            },
+            {
+                "answer": "7",
+                "correct": false
+            },
+            {
+                "answer": "4",
+                "correct": false
+            }
+        ],
+        "tag": "uncertainty dof",
+        "lecture_file": "11_regression"
+    },
+    {
+        "question": "The size of the confidence interval depends on",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Chosen confidence level",
+                "correct": false
+            },
+            {
+                "answer": "Number of parameters",
+                "correct": false
+            },
+            {
+                "answer": "Number of data points",
+                "correct": false
+            },
+            {
+                "answer": "All of the above",
+                "correct": true
+            }
+        ],
+        "tag": "uncertainty confidence_interval",
+        "lecture_file": "11_regression"
+    },
+    {
+        "question": "The Hessian matrix obtained using scipy.minimize() can be made more accurate by",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Decreasing the tolerance",
+                "correct": false
+            },
+            {
+                "answer": "Using the SLSQP solver",
+                "correct": false
+            },
+            {
+                "answer": "Increasing the tolerance",
+                "correct": true
+            },
+            {
+                "answer": "None of the above",
+                "correct": false
+            }
+        ],
+        "tag": "scipy hessian",
+        "lecture_file": "12_nonlinear_regression"
+    },
+    {
+        "question": "The relation: Hessian_inverse = 2*Covariance is valid only in the case of ",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "minimization using sum squared errors",
+                "correct": true
+            },
+            {
+                "answer": "minimization using absolute sum of errors",
+                "correct": false
+            },
+            {
+                "answer": "always valid",
+                "correct": false
+            },
+            {
+                "answer": "always valid for high tolerance solvers",
+                "correct": false
+            }
+        ],
+        "tag": "hessian",
+        "lecture_file": "12_nonlinear_regression"
+    },
+    {
+        "question": "np.linalg.inv(A) requires",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "A to be a non-singular matrix",
+                "correct": false
+            },
+            {
+                "answer": "Determinant of A not equal to zero",
+                "correct": false
+            },
+            {
+                "answer": "A to be a square matrix",
+                "correct": false
+            },
+            {
+                "answer": "All of the above",
+                "correct": true
+            }
+        ],
+        "tag": "numpy matrices hessian",
+        "lecture_file": "12_nonlinear_regression"
+    },
+    {
+        "question": "Which norm regression approach among the following will be more resistant to outliers",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "L2",
+                "correct": false
+            },
+            {
+                "answer": "L1",
+                "correct": true
+            },
+            {
+                "answer": "Both L1 and L2 will be equally resistant",
+                "correct": false
+            },
+            {
+                "answer": "L1.5",
+                "correct": false
+            }
+        ],
+        "tag": "outliers robust_regression",
+        "lecture_file": "12_nonlinear_regression"
+    },
+    {
+        "question": "For an array([1, 2, 3, 4, 5, 6, 7]), an additional entry of value 20 to the array, will",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Not affect the median but will change the mean value",
+                "correct": false
+            },
+            {
+                "answer": "Change the mean and median both, but will have less impact on the mean",
+                "correct": false
+            },
+            {
+                "answer": "Change the mean and median both, but will have less impact on the median",
+                "correct": true
+            },
+            {
+                "answer": "Not affect the mean but will change the median value",
+                "correct": false
+            }
+        ],
+        "tag": "mean_median",
+        "lecture_file": "12_nonlinear_regression"
+    },
+    {
+        "question": "For an array([1, 2, 3, 4, 5, 6, 7]), an additional entry of value 8 to the array, will",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Will equally change the median and mean",
+                "correct": true
+            },
+            {
+                "answer": "Change the mean and median both, but will have less impact on the mean",
+                "correct": false
+            },
+            {
+                "answer": "Change the mean and median both, but will have less impact on the median",
+                "correct": false
+            },
+            {
+                "answer": "Not affect the median or the mean",
+                "correct": false
+            }
+        ],
+        "tag": "mean_median",
+        "lecture_file": "12_nonlinear_regression"
+    },
+    {
+        "question": "Using L2 norm instead of L1 to minimize errors will affect the regression model in what way",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "The model will move towards the outliers",
+                "correct": true
+            },
+            {
+                "answer": "The model will move away from the outliers",
+                "correct": false
+            },
+            {
+                "answer": "The model will remain unaffected",
+                "correct": false
+            },
+            {
+                "answer": "Can't say",
+                "correct": false
+            }
+        ],
+        "tag": "robust_regression norm_regression",
+        "lecture_file": "12_nonlinear_regression"
+    },
+    {
+        "question": "Find the median of the following set (1, 2, 3, 5, 7, 9, 13, 18, 30)",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "15.5",
+                "correct": false
+            },
+            {
+                "answer": "7",
+                "correct": true
+            },
+            {
+                "answer": "9.7",
+                "correct": false
+            },
+            {
+                "answer": "13",
+                "correct": false
+            }
+        ],
+        "tag": "mean_median",
+        "lecture_file": "12_nonlinear_regression"
+    },
+    {
+        "question": "A Hessian of a scalar-valued function consists of",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "first-order partial derivatives",
+                "correct": false
+            },
+            {
+                "answer": "first-order total derivatives",
+                "correct": false
+            },
+            {
+                "answer": "second-order total derivatives",
+                "correct": false
+            },
+            {
+                "answer": "second-order partial derivatives",
+                "correct": true
+            }
+        ],
+        "tag": "hessian",
+        "lecture_file": "12_nonlinear_regression"
+    },
+    {
+        "question": "To fit a model to a set of data points which were recorded using an instrument which loses precision over time, the best choice, among the following, would be to use",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "weighted regression with weights increasing for newer points",
+                "correct": false
+            },
+            {
+                "answer": "weighted regression with weights decreasing for newer points",
+                "correct": true
+            },
+            {
+                "answer": "regular regression without weights",
+                "correct": false
+            },
+            {
+                "answer": "all would give the same results",
+                "correct": false
+            }
+        ],
+        "tag": "robust_regression weighted_regression",
+        "lecture_file": "12_nonlinear_regression"
+    },
+    {
+        "question": "What will be the output of:<br>a = dict()<br>a['one'] = 1<br>print(a)",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Error",
+                "correct": false
+            },
+            {
+                "answer": "['one': 1]",
+                "correct": false
+            },
+            {
+                "answer": "{'one': 1}",
+                "correct": true
+            },
+            {
+                "answer": "{'one': '1'}",
+                "correct": false
+            }
+        ],
+        "tag": "dictionary",
+        "lecture_file": "13_constrained_optimization"
+    },
+    {
+        "question": "Which of the following is not a correct entry in a python dictionary",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "{1:'1'}",
+                "correct": false
+            },
+            {
+                "answer": "{'a': 1}",
+                "correct": false
+            },
+            {
+                "answer": "{5.23: 5}",
+                "correct": false
+            },
+            {
+                "answer": "{[1, 2]: 'ab'}",
+                "correct": true
+            }
+        ],
+        "tag": "dictionary",
+        "lecture_file": "13_constrained_optimization"
+    },
+    {
+        "question": "Which of the following can be a way of printing the 'n'-th key in a dictionary 'dict'",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "dict.keys()[n]",
+                "correct": false
+            },
+            {
+                "answer": "dict.keys(n)",
+                "correct": false
+            },
+            {
+                "answer": "list(dict.keys())[n]",
+                "correct": true
+            },
+            {
+                "answer": "dict.items()[n]",
+                "correct": false
+            }
+        ],
+        "tag": "dictionary",
+        "lecture_file": "13_constrained_optimization"
+    },
+    {
+        "question": "What can be a way of accessing the 'n'-th key and value separately from a dictionary",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "dict.keys()[n], dict.values()[n]",
+                "correct": false
+            },
+            {
+                "answer": "d.items()[n]",
+                "correct": false
+            },
+            {
+                "answer": "dict.keys(n), dict.values(n)",
+                "correct": false
+            },
+            {
+                "answer": "for key, value in dict.items():<br>    print(key, value)",
+                "correct": true
+            }
+        ],
+        "tag": "dictionary",
+        "lecture_file": "13_constrained_optimization"
+    },
+    {
+        "question": "Constraints in scipy.optimize.minimize need to be functions which",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "always return zero when satisfied",
+                "correct": false
+            },
+            {
+                "answer": "can return zero or are greater than zero when satisfied",
+                "correct": true
+            },
+            {
+                "answer": "can return zero or are less than zero when satisfied",
+                "correct": false
+            },
+            {
+                "answer": "can only return values which are less than zero",
+                "correct": false
+            }
+        ],
+        "tag": "scipy constraints",
+        "lecture_file": "13_constrained_optimization"
+    },
+    {
+        "question": "For multiple constraints, the argument 'constraints' in scipy.optimize.minimize needs to be",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "a dictionary",
+                "correct": false
+            },
+            {
+                "answer": "a list",
+                "correct": false
+            },
+            {
+                "answer": "a list of dictionaries",
+                "correct": true
+            },
+            {
+                "answer": "a dictionary of lists",
+                "correct": false
+            }
+        ],
+        "tag": "scipy constraints",
+        "lecture_file": "13_constrained_optimization"
+    },
+    {
+        "question": "<pre><code class=\"language-python\">def f(X):\n    return -X[0]\n\nconstraints = {'type':'ineq', 'fun': f}\n</code></pre>\n<p>is a </p>",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "negativity constraint",
+                "correct": true
+            },
+            {
+                "answer": "positivity constraint",
+                "correct": false
+            },
+            {
+                "answer": "equality constraint",
+                "correct": false
+            },
+            {
+                "answer": "None of the above",
+                "correct": false
+            }
+        ],
+        "tag": "scipy constraints",
+        "lecture_file": "13_constrained_optimization"
+    },
+    {
+        "question": "Which equation from the options can be expressed as the following constraint function:<br><br>def f(X):<br>    x, y = X<br>    return -(2x + 3y - 11)<br>constraints = {'type':'ineq', 'fun':f}",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "2x + 3y + 11 <= 0",
+                "correct": false
+            },
+            {
+                "answer": "2x + 3y <= 11",
+                "correct": true
+            },
+            {
+                "answer": "2x + 3y >=11",
+                "correct": false
+            },
+            {
+                "answer": "-2x-3y <=11",
+                "correct": false
+            }
+        ],
+        "tag": "scipy constraints",
+        "lecture_file": "13_constrained_optimization"
+    },
+    {
+        "question": "Which of the following solvers cannot be used with constraints in scipy.optimize.minimize",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "BFGS",
+                "correct": true
+            },
+            {
+                "answer": "SLSQP",
+                "correct": false
+            },
+            {
+                "answer": "trust-constr",
+                "correct": false
+            },
+            {
+                "answer": "COBYLA",
+                "correct": false
+            }
+        ],
+        "tag": "scipy constraints",
+        "lecture_file": "13_constrained_optimization"
+    },
+    {
+        "question": "The default solver in scipy.optimize.minimize when using constraints is",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "BFGS",
+                "correct": false
+            },
+            {
+                "answer": "SLSQP",
+                "correct": true
+            },
+            {
+                "answer": "trust-constr",
+                "correct": false
+            },
+            {
+                "answer": "COBYLA",
+                "correct": false
+            }
+        ],
+        "tag": "scipy constraints",
+        "lecture_file": "13_constrained_optimization"
+    },
+    {
+        "question": "np.tri(2, k = 1) + np.diag([1, 2]) = ?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "np.array([[2, 0], [1, 3]])",
+                "correct": false
+            },
+            {
+                "answer": "np.array([[1, 2], [1, 1]])",
+                "correct": false
+            },
+            {
+                "answer": "np.array([[2, 1], [1, 3]])",
+                "correct": true
+            },
+            {
+                "answer": "np.array([[1, 0], [1, 3]])",
+                "correct": false
+            }
+        ],
+        "tag": "numpy arrays",
+        "lecture_file": "15_intro_linear_algebra"
+    },
+    {
+        "question": "np.diag([[1, 2, 3], [4, 5, 6], [7, 8, 9]], k = -1) = ?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Error",
+                "correct": false
+            },
+            {
+                "answer": "np.array([1, 5, 9])",
+                "correct": false
+            },
+            {
+                "answer": "np.array([2, 6])",
+                "correct": false
+            },
+            {
+                "answer": "np.array([4, 8])",
+                "correct": true
+            }
+        ],
+        "tag": "numpy arrays",
+        "lecture_file": "15_intro_linear_algebra"
+    },
+    {
+        "question": "A = np.ones(shape = [2, 2])<br>A + np.array([1, 1]) = ?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "np.array([[2, 2], [1, 1]])",
+                "correct": false
+            },
+            {
+                "answer": "np.array([[2, 1], [2, 1]])",
+                "correct": false
+            },
+            {
+                "answer": "np.array([[2, 2], [2, 2]])",
+                "correct": true
+            },
+            {
+                "answer": "np.array([[1, 2], [1, 2]])",
+                "correct": false
+            }
+        ],
+        "tag": "numpy arrays",
+        "lecture_file": "15_intro_linear_algebra"
+    },
+    {
+        "question": "A = np.array([[12, 15], [18, 21]])<br>B = np.array([6, 3])<br>A / B = ?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "np.array([[2, 5], [18, 21]])",
+                "correct": false
+            },
+            {
+                "answer": "np.array([[12, 15], [3, 7]])",
+                "correct": false
+            },
+            {
+                "answer": "Error",
+                "correct": false
+            },
+            {
+                "answer": "np.array([[2, 5], [3, 7]])",
+                "correct": true
+            }
+        ],
+        "tag": "arrays",
+        "lecture_file": "15_intro_linear_algebra"
+    },
+    {
+        "question": "When np.transpose(A) = np.linalg.inv(A); then A is a ",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "symmetric matrix",
+                "correct": false
+            },
+            {
+                "answer": "skew-symmetric matrix",
+                "correct": false
+            },
+            {
+                "answer": "orthogonal matrix",
+                "correct": true
+            },
+            {
+                "answer": "identity matrix",
+                "correct": false
+            }
+        ],
+        "tag": "matrices numpy",
+        "lecture_file": "15_intro_linear_algebra"
+    },
+    {
+        "question": "A = np.array([[1, 2, 3], [3, 2, 1]])<br>B = np.array([4, 5, 6])<br>A @ B  = C<br>We can say that",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "C is a linear combination of the columns in A",
+                "correct": true
+            },
+            {
+                "answer": "C is a linear combination of the rows in A",
+                "correct": false
+            },
+            {
+                "answer": "The operation would give an error.",
+                "correct": false
+            },
+            {
+                "answer": "Shape of C = (1, 2)",
+                "correct": false
+            }
+        ],
+        "tag": "matrices",
+        "lecture_file": "15_intro_linear_algebra"
+    },
+    {
+        "question": "A = np.array([1, 1, 1])<br>B = np.array([[1], [1], [1]])<br>(A @ B).shape = ?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "(1, 3)",
+                "correct": false
+            },
+            {
+                "answer": "(1)",
+                "correct": true
+            },
+            {
+                "answer": "(3, 1)",
+                "correct": false
+            },
+            {
+                "answer": "(3, 3)",
+                "correct": false
+            }
+        ],
+        "tag": "matrices",
+        "lecture_file": "15_intro_linear_algebra"
+    },
+    {
+        "question": "What would be the inverse of the matrix:<br>np.array([[3, -6], [2, -4]])",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Inverse does not exist",
+                "correct": true
+            },
+            {
+                "answer": "np.array([[2, -4], [3, -6]])",
+                "correct": false
+            },
+            {
+                "answer": "np.array([[-3, 6],  [-2, 4]])",
+                "correct": false
+            },
+            {
+                "answer": "np.array([[6, -9],  [3, -4]])",
+                "correct": false
+            }
+        ],
+        "tag": "matrices",
+        "lecture_file": "15_intro_linear_algebra"
+    },
+    {
+        "question": "The rank of a matrix determines the",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "number of linearly independent rows",
+                "correct": false
+            },
+            {
+                "answer": "number of linearly independent columns",
+                "correct": false
+            },
+            {
+                "answer": "All of the above",
+                "correct": true
+            },
+            {
+                "answer": "None of the above",
+                "correct": false
+            }
+        ],
+        "tag": "rank matrices",
+        "lecture_file": "15_intro_linear_algebra"
+    },
+    {
+        "question": "A = np.array([1, 2])<br>B = np.array([3, 4, 5])<br>np.hstack([A, B]) = ?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Error",
+                "correct": false
+            },
+            {
+                "answer": "np.array([1, 2, 3, 4, 5])",
+                "correct": true
+            },
+            {
+                "answer": "np.array([[1, 3, 4, 5], [2, 3, 4, 5]])",
+                "correct": false
+            },
+            {
+                "answer": "np.array([[1, 2, 3], [1, 2, 4], [1, 2, 5]])",
+                "correct": false
+            }
+        ],
+        "tag": "numpy matrices",
+        "lecture_file": "15_intro_linear_algebra"
+    },
+    {
+        "question": "Express: summation ((a_i)**2 * (b_i)**2) <br>using linear algebra",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "a @ np.diag(a) @ b @ np.diag(b)",
+                "correct": false
+            },
+            {
+                "answer": "a @ np.diag(a) + np.diag(b) @ b",
+                "correct": false
+            },
+            {
+                "answer": "a @ np.diag(a) @ np.diag(b) @ b",
+                "correct": true
+            },
+            {
+                "answer": "a @ b @ np.diag(a) @ np.diag(b)",
+                "correct": false
+            }
+        ],
+        "tag": "summation iteration dot_product",
+        "lecture_file": "16_linear_algebra"
+    },
+    {
+        "question": "What will be the shape of the final matrix, if the 4 matrices below are multiplied in the way shown:<br>np.array([1, 1]) @ np.array([[1, 2], [3, 4], [5, 6]).T @ np.array([1, 2, 3]).T",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Error",
+                "correct": false
+            },
+            {
+                "answer": "(1)",
+                "correct": true
+            },
+            {
+                "answer": "(1, 3)",
+                "correct": false
+            },
+            {
+                "answer": "(2, 3)",
+                "correct": false
+            }
+        ],
+        "tag": "matrices",
+        "lecture_file": "16_linear_algebra"
+    },
+    {
+        "question": "What will be the shape of the final matrix, if the 4 matrices below are multiplied in the way shown:<br>np.array([1, 1]) @ np.array([[1, 2], [3, 4], [5, 6]).T @ np.array([1, 2, 3])",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Error",
+                "correct": true
+            },
+            {
+                "answer": "(1)",
+                "correct": false
+            },
+            {
+                "answer": "(1, 3)",
+                "correct": false
+            },
+            {
+                "answer": "(2, 3)",
+                "correct": false
+            }
+        ],
+        "tag": "matrices",
+        "lecture_file": "16_linear_algebra"
+    },
+    {
+        "question": "The determinant of a matrix is a",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "scalar",
+                "correct": true
+            },
+            {
+                "answer": "vector",
+                "correct": false
+            },
+            {
+                "answer": "matrix",
+                "correct": false
+            },
+            {
+                "answer": "None of the above",
+                "correct": false
+            }
+        ],
+        "tag": "determinant",
+        "lecture_file": "16_linear_algebra"
+    },
+    {
+        "question": "Find the determinant of the following matrix:<br>np.array([[1, 2, 3], [2, 2, 2]])",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "0",
+                "correct": false
+            },
+            {
+                "answer": "3",
+                "correct": false
+            },
+            {
+                "answer": "1",
+                "correct": false
+            },
+            {
+                "answer": "determinant can be calculated only for square matrices",
+                "correct": true
+            }
+        ],
+        "tag": "determinant",
+        "lecture_file": "16_linear_algebra"
+    },
+    {
+        "question": "Which of the following statements is true about the below matrix:<br>np.array([[1, 2, 3], [2, 2, 2], [1, 1, 1]])",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "It is a non-singular matrix",
+                "correct": false
+            },
+            {
+                "answer": "Rank of the matrix is 3",
+                "correct": false
+            },
+            {
+                "answer": "It is a singular matrix",
+                "correct": true
+            },
+            {
+                "answer": "The inverse of the matrix is real and finite",
+                "correct": false
+            }
+        ],
+        "tag": "matrices",
+        "lecture_file": "16_linear_algebra"
+    },
+    {
+        "question": "The advantage of using linear algebra over solve_bvp to solve boundary value problems is that",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "It can solve a non-linear system of equations",
+                "correct": false
+            },
+            {
+                "answer": "No need of an initial guess",
+                "correct": true
+            },
+            {
+                "answer": "Requires very few points",
+                "correct": false
+            },
+            {
+                "answer": "All of the above",
+                "correct": false
+            }
+        ],
+        "tag": "scipy applications",
+        "lecture_file": "16_linear_algebra"
+    },
+    {
+        "question": "Which of the folllowing matrices are in reduced row echelon form:<br>1: np.array([[1, 2, 3], [0, 1, 0], [0, 0, 1]])<br>2: np.array([[1, 0, 1], [0, 1, 1], [0, 0, 0]])<br>3: np.array([[0, 1, 0], [0, 0, 1], [0, 0, 0]])",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "1, 2, 3",
+                "correct": false
+            },
+            {
+                "answer": "1, 2",
+                "correct": false
+            },
+            {
+                "answer": "2, 3",
+                "correct": false
+            },
+            {
+                "answer": "3",
+                "correct": true
+            }
+        ],
+        "tag": "reduced_row_echelon matrices",
+        "lecture_file": "16_linear_algebra"
+    },
+    {
+        "question": "Which of the following  is not true about a dot product",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "It is the sum of the element-wise product of 2 arrays",
+                "correct": false
+            },
+            {
+                "answer": "square root of a vector's dot product with itself is the magnitude of the vector",
+                "correct": false
+            },
+            {
+                "answer": "It can also produce a vector",
+                "correct": true
+            },
+            {
+                "answer": "It can be used to find the angle between 2 vectors",
+                "correct": false
+            }
+        ],
+        "tag": "dot_product",
+        "lecture_file": "16_linear_algebra"
+    },
+    {
+        "question": "Which of the following is a property of dot products for the vectors A, B, C.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "If A.B = A.C; then B=C",
+                "correct": false
+            },
+            {
+                "answer": "(A.B).C = C.(A.B)",
+                "correct": false
+            },
+            {
+                "answer": "A and B are orthogonal if A.B = 1",
+                "correct": false
+            },
+            {
+                "answer": "A.(B+C) = A.B + A.C",
+                "correct": true
+            }
+        ],
+        "tag": "dot_product",
+        "lecture_file": "16_linear_algebra"
+    },
+    {
+        "question": "Which of the following matrices can be solved using np.linalg.solve(A, B)",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "A = np.array([[a1, a2, a3], [a2, a3, a4]])<br>B = np.array([b1, b2, b3])",
+                "correct": false
+            },
+            {
+                "answer": "A = np.array([[a1, a2, a3], [a2, a3, a4], [a3, a4 ,a5]])<br>B = np.array([b1, b2])",
+                "correct": false
+            },
+            {
+                "answer": "A = np.array([[a1, a2, a3], [a2, a3, a4], [a3, a4, a5]])<br>B = np.array([b1, b2, b3])",
+                "correct": true
+            },
+            {
+                "answer": "A = np.array([[a1, a2], [a2, a3], [a3, a4]])<br>B = np.array([b1, b2])",
+                "correct": false
+            }
+        ],
+        "tag": "numpy applications",
+        "lecture_file": "17_linear_algebra_2"
+    },
+    {
+        "question": "If B and X are row vectors, then the expression $b_1 x_1 + b_2 x_2 + b_3 x_3$ can be expressed as",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "B.T . X.T",
+                "correct": false
+            },
+            {
+                "answer": "B . X",
+                "correct": false
+            },
+            {
+                "answer": "B.T . X",
+                "correct": false
+            },
+            {
+                "answer": "B . X.T",
+                "correct": true
+            }
+        ],
+        "tag": "vectors applications",
+        "lecture_file": "17_linear_algebra_2"
+    },
+    {
+        "question": "x = np.linspace(1, 5, 3); y = np.array([3, 9, 27])<br>Y = interp1d(x, y, kind='quadratic', bounds_error=False)<br>xfit = np.linspace(-1, 8)<br>print(Y(xfit))<br><br>The above code will",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Raise an error",
+                "correct": false
+            },
+            {
+                "answer": "Print Y() values for the x-range (-1, 8)",
+                "correct": false
+            },
+            {
+                "answer": "Print Y() values for the x-range (1, 5) and NaN for the rest",
+                "correct": true
+            },
+            {
+                "answer": "None of the above",
+                "correct": false
+            }
+        ],
+        "tag": "scipy applications",
+        "lecture_file": "17_linear_algebra_2"
+    },
+    {
+        "question": "If the eigenvalues of matrix A are complex, then we can be certain that the matrix A",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "is symmetric",
+                "correct": false
+            },
+            {
+                "answer": "is a non-square matrix",
+                "correct": false
+            },
+            {
+                "answer": "has all the elements as complex numbers",
+                "correct": false
+            },
+            {
+                "answer": "is non-symmetric",
+                "correct": true
+            }
+        ],
+        "tag": "eigenvalues eigen",
+        "lecture_file": "17_linear_algebra_2"
+    },
+    {
+        "question": "For a 2 x 2 matrix with all values being real, and having 2 eigenvalues, if 1-2j is one of the eigenvalues, what is the other eigenvalue",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "1 + 2j",
+                "correct": true
+            },
+            {
+                "answer": "-2j",
+                "correct": false
+            },
+            {
+                "answer": "-1 -2j",
+                "correct": false
+            },
+            {
+                "answer": "-1+2j",
+                "correct": false
+            }
+        ],
+        "tag": "eigenvalues eigen",
+        "lecture_file": "17_linear_algebra_2"
+    },
+    {
+        "question": "For an N x N matrix, the number of eigenvalues",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "will always be equal to N",
+                "correct": false
+            },
+            {
+                "answer": "can never be more than N",
+                "correct": true
+            },
+            {
+                "answer": "can be less or more than N",
+                "correct": false
+            },
+            {
+                "answer": "will always be less than N",
+                "correct": false
+            }
+        ],
+        "tag": "eigenvalues eigen",
+        "lecture_file": "17_linear_algebra_2"
+    },
+    {
+        "question": "Find the product of the eigenvalues for the matrix:<br>np.array([[1, 2, 3], [3, 2, 1], [2, 1, 0]])",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "-8",
+                "correct": false
+            },
+            {
+                "answer": "Need more information",
+                "correct": false
+            },
+            {
+                "answer": "0",
+                "correct": true
+            },
+            {
+                "answer": "1",
+                "correct": false
+            }
+        ],
+        "tag": "eigenvalues eigen",
+        "lecture_file": "17_linear_algebra_2"
+    },
+    {
+        "question": "Find the sum of all the eigenvalues of the matrix:<br>np.array([[1, 2, 3], [3, 2, 1], [2, 0, 1]])",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "0",
+                "correct": false
+            },
+            {
+                "answer": "4",
+                "correct": true
+            },
+            {
+                "answer": "Need more information",
+                "correct": false
+            },
+            {
+                "answer": "6",
+                "correct": false
+            }
+        ],
+        "tag": "eigenvalues eigen",
+        "lecture_file": "17_linear_algebra_2"
+    },
+    {
+        "question": "If the eigenvalues of the Hessian matrix for a function are all negative, then we are at a",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "minimum",
+                "correct": false
+            },
+            {
+                "answer": "saddle point",
+                "correct": false
+            },
+            {
+                "answer": "maximum",
+                "correct": true
+            },
+            {
+                "answer": "Need more information",
+                "correct": false
+            }
+        ],
+        "tag": "eigenvalues hessian eigen",
+        "lecture_file": "17_linear_algebra_2"
+    },
+    {
+        "question": "If the eigenvectors of a matrix A are orthogonal, then we can be certain  that matrix A is a ",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "symmetric matrix",
+                "correct": true
+            },
+            {
+                "answer": "asymmetric matrix",
+                "correct": false
+            },
+            {
+                "answer": "lower triangular matrix",
+                "correct": false
+            },
+            {
+                "answer": "There is no inference",
+                "correct": false
+            }
+        ],
+        "tag": "eigenvectors eigen",
+        "lecture_file": "17_linear_algebra_2"
+    },
+    {
+        "question": "For a linear regression model represented as y = b0 + b1.x1 + b2x2; with 10 data points (x, y), what will be the shape of the matrix X in X.b = y.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "(10,3)",
+                "correct": true
+            },
+            {
+                "answer": "(3, 1)",
+                "correct": false
+            },
+            {
+                "answer": "(10, 1)",
+                "correct": false
+            },
+            {
+                "answer": "(10, 10)",
+                "correct": false
+            }
+        ],
+        "tag": "regression matrices",
+        "lecture_file": "18_linear_regression"
+    },
+    {
+        "question": "Determine true or false:<br>Linear regression using numpy.linalg.lstsq() minimizes the errors, which also means it minimizes the residuals.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "False ",
+                "correct": false
+            },
+            {
+                "answer": "True ",
+                "correct": true
+            },
+            {
+                "answer": "-",
+                "correct": false
+            },
+            {
+                "answer": "-",
+                "correct": false
+            }
+        ],
+        "tag": "regression numpy error residual",
+        "lecture_file": "18_linear_regression"
+    },
+    {
+        "question": "Determine true or false:<br>When using numpy.linalg.lstsq(X, y), the X matrix must necessarily be a square matrix.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True ",
+                "correct": false
+            },
+            {
+                "answer": "False ",
+                "correct": true
+            },
+            {
+                "answer": "-",
+                "correct": false
+            },
+            {
+                "answer": "-",
+                "correct": false
+            }
+        ],
+        "tag": "regression numpy matrices",
+        "lecture_file": "18_linear_regression"
+    },
+    {
+        "question": "For 2 linear regression models for the same data set, R-squared value of model-1 is 95% and that of model-2 is 65%. Which of the following statements are true?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Model 1 is a better represenation of the data set",
+                "correct": false
+            },
+            {
+                "answer": "Model 2 is a better representation of the data set",
+                "correct": false
+            },
+            {
+                "answer": "Both are equally good.",
+                "correct": false
+            },
+            {
+                "answer": "Cannot say which model is better based on the R-squared values.",
+                "correct": true
+            }
+        ],
+        "tag": "R_squared regression",
+        "lecture_file": "18_linear_regression"
+    },
+    {
+        "question": "What will be the shape of the covariance matrix for a system which has 100 data points and is represented with the model: y = b0 + b1x1 + b2x2 + b3x3",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "(4, 4)",
+                "correct": true
+            },
+            {
+                "answer": "(100, 100)",
+                "correct": false
+            },
+            {
+                "answer": "(4, 100)",
+                "correct": false
+            },
+            {
+                "answer": "(100, 4)",
+                "correct": false
+            }
+        ],
+        "tag": "regression covariance",
+        "lecture_file": "18_linear_regression"
+    },
+    {
+        "question": "To eliminate the least contributing independent variables in a linear regression model using regularization, a good choice can be to use",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "L2 regularization",
+                "correct": false
+            },
+            {
+                "answer": "L1 regularization",
+                "correct": true
+            },
+            {
+                "answer": "Both can work equally efficiently",
+                "correct": false
+            },
+            {
+                "answer": "None of the above",
+                "correct": false
+            }
+        ],
+        "tag": "regularization ridge lasso",
+        "lecture_file": "18_linear_regression"
+    },
+    {
+        "question": "When using L1 regularization, if the value of lambda is extremely large as compared to the sum squared errors, then",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "We will get the most accurate model",
+                "correct": false
+            },
+            {
+                "answer": "All the parameters might get reduced to zero",
+                "correct": true
+            },
+            {
+                "answer": "It will have no effect on the regularization",
+                "correct": false
+            },
+            {
+                "answer": "All the parameters will be reduced but never to zero",
+                "correct": false
+            }
+        ],
+        "tag": "regularization lasso",
+        "lecture_file": "18_linear_regression"
+    },
+    {
+        "question": "Standardizing the input variables",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Results in average value of each variable equal to zero",
+                "correct": false
+            },
+            {
+                "answer": "Eliminates the intercept",
+                "correct": false
+            },
+            {
+                "answer": "Eliminates the effects of difference in absolute values of the variables",
+                "correct": false
+            },
+            {
+                "answer": "All of the above",
+                "correct": true
+            }
+        ],
+        "tag": "standardization",
+        "lecture_file": "18_linear_regression"
+    },
+    {
+        "question": "Ridge regularization can be useful in",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Eliminating the non-contributing features",
+                "correct": false
+            },
+            {
+                "answer": "Reducing the errors arising from least-contributing features",
+                "correct": true
+            },
+            {
+                "answer": "Reducing the penalty on the non-contributing coefficients as compared with Lasso",
+                "correct": false
+            },
+            {
+                "answer": "All of the above",
+                "correct": false
+            }
+        ],
+        "tag": "regularization ridge",
+        "lecture_file": "18_linear_regression"
+    },
+    {
+        "question": "When using Ridge regularization, if the value of lambda = 0, then",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "All the coefficients will go to zero",
+                "correct": false
+            },
+            {
+                "answer": "All the coefficients will go to infinity",
+                "correct": false
+            },
+            {
+                "answer": "The final model is the same as a non-regularized linear regression model",
+                "correct": true
+            },
+            {
+                "answer": "None of the above",
+                "correct": false
+            }
+        ],
+        "tag": "regularization ridge",
+        "lecture_file": "18_linear_regression"
+    },
+    {
+        "question": "Derivatives have useful applications in determining",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "rate of change of physical quantities",
+                "correct": false
+            },
+            {
+                "answer": "uncertainty propagation",
+                "correct": false
+            },
+            {
+                "answer": "extreme values of a function",
+                "correct": false
+            },
+            {
+                "answer": "All of the above",
+                "correct": true
+            }
+        ],
+        "tag": "derivative",
+        "lecture_file": "19_introduction_to_autograd"
+    },
+    {
+        "question": "np.gradient and scipy.misc.derivative approximates the derivatives based on",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "chain rule",
+                "correct": false
+            },
+            {
+                "answer": "Finite element analysis",
+                "correct": false
+            },
+            {
+                "answer": "Finite differences",
+                "correct": true
+            },
+            {
+                "answer": "None of the above",
+                "correct": false
+            }
+        ],
+        "tag": "derivative numpy scipy",
+        "lecture_file": "19_introduction_to_autograd"
+    },
+    {
+        "question": "A requirement of using np.gradient to calculate the derivative is",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "equation of the function to be differentiated",
+                "correct": false
+            },
+            {
+                "answer": "data points",
+                "correct": true
+            },
+            {
+                "answer": "defining a function in python",
+                "correct": false
+            },
+            {
+                "answer": "None of the above",
+                "correct": false
+            }
+        ],
+        "tag": "numpy derivative",
+        "lecture_file": "19_introduction_to_autograd"
+    },
+    {
+        "question": "A requirement of using scipy.misc.derivative to calculate the derivative is",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "equation of the function to be differentiated",
+                "correct": false
+            },
+            {
+                "answer": "defining a function in python",
+                "correct": false
+            },
+            {
+                "answer": "All of the above",
+                "correct": true
+            },
+            {
+                "answer": "None of the above",
+                "correct": false
+            }
+        ],
+        "tag": "scipy derivative",
+        "lecture_file": "19_introduction_to_autograd"
+    },
+    {
+        "question": "Automatic differentiation is better than classical methods such as symbolic and numerical differentiation as",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "It does not approximate",
+                "correct": false
+            },
+            {
+                "answer": "It can solve higher order derivatives",
+                "correct": false
+            },
+            {
+                "answer": "It can work on a program",
+                "correct": false
+            },
+            {
+                "answer": "All of the above",
+                "correct": true
+            }
+        ],
+        "tag": "derivative automatic_differentiation",
+        "lecture_file": "19_introduction_to_autograd"
+    },
+    {
+        "question": "If f(x) is a scalar function, and E = elementwise_grad(f), then E(np.array([a, b, c]), will output",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "A single element as f(x) is a scalar function",
+                "correct": false
+            },
+            {
+                "answer": "An array of length 3",
+                "correct": true
+            },
+            {
+                "answer": "An error",
+                "correct": false
+            },
+            {
+                "answer": "An array of length 9",
+                "correct": false
+            }
+        ],
+        "tag": "autograd",
+        "lecture_file": "19_introduction_to_autograd"
+    },
+    {
+        "question": "When using autograd, which of the following codes will work without raising an error",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "def z(x):<br>    c = 1/x - 1<br>    return c<br>dz = grad(z)<br>dz(-2.0)",
+                "correct": true
+            },
+            {
+                "answer": "def z(x):<br>    c = 1/x - 1<br>    return c<br>dz = grad(z)<br>dz(2)",
+                "correct": false
+            },
+            {
+                "answer": "def z(x):<br>    c = 1/x - 1<br>    return c<br>dz = grad(z)<br>dz(0.0)",
+                "correct": false
+            },
+            {
+                "answer": "def z(x):<br>    c = 1/x - 1<br>    return c<br>dz = grad(z)<br>dz(np.array([-2.0, -1.0]))",
+                "correct": false
+            }
+        ],
+        "tag": "autograd",
+        "lecture_file": "19_introduction_to_autograd"
+    },
+    {
+        "question": "When using autograd.jacobian() to evaluate the derivative for multiple input arrays, we need to",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Use a list of arrays as input",
+                "correct": false
+            },
+            {
+                "answer": "Cannot be done directly; Need to use a single input array at a time",
+                "correct": false
+            },
+            {
+                "answer": "Use a nested array as the input",
+                "correct": true
+            },
+            {
+                "answer": "Can be used if we vectorize the function with '@np.vectorize' decorator",
+                "correct": false
+            }
+        ],
+        "tag": "autograd",
+        "lecture_file": "19_introduction_to_autograd"
+    },
+    {
+        "question": "Hessian and Jacobian are useful to find the partial derivatives of",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Vector-valued functions",
+                "correct": false
+            },
+            {
+                "answer": "Scalar-valued functions",
+                "correct": false
+            },
+            {
+                "answer": "Hessian is used on scalar-valued functions and Jacobian on vector-valued functions",
+                "correct": true
+            },
+            {
+                "answer": "Hessian is used on vector-valued functions and Jacobian on scalar-valued functions",
+                "correct": false
+            }
+        ],
+        "tag": "hessian jacobian",
+        "lecture_file": "19_introduction_to_autograd"
+    },
+    {
+        "question": "When the input dimensions and output dimensions of a vector valued function are equal to 1, then",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "The function can be interpreted as scalar-valued",
+                "correct": false
+            },
+            {
+                "answer": "The jacobian matrix has a single value which is the derivative of the function at the input value",
+                "correct": false
+            },
+            {
+                "answer": "The function is no longer multivariate",
+                "correct": false
+            },
+            {
+                "answer": "All of the above",
+                "correct": true
+            }
+        ],
+        "tag": "autograd functions",
+        "lecture_file": "19_introduction_to_autograd"
+    },
+    {
+        "question": "The dot product of 2 vectors will be ",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "a scalar",
+                "correct": true
+            },
+            {
+                "answer": "a vector",
+                "correct": false
+            },
+            {
+                "answer": "2 vectors",
+                "correct": false
+            },
+            {
+                "answer": "2 scalars",
+                "correct": false
+            }
+        ],
+        "tag": "dot_product applications",
+        "lecture_file": "20_autograd_applications"
+    },
+    {
+        "question": "When evaluating line integrals, we need to be cautious of choosing the parameterization of the curve in order to get the right solution",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Yes, the solution to a line integral will depend on the curve parameterization.",
+                "correct": false
+            },
+            {
+                "answer": "No, we can choose any form of parameterization and will reach the same solution.",
+                "correct": true
+            },
+            {
+                "answer": "-",
+                "correct": false
+            },
+            {
+                "answer": "-",
+                "correct": false
+            }
+        ],
+        "tag": "line_integral applications",
+        "lecture_file": "20_autograd_applications"
+    },
+    {
+        "question": "Using lagrange multipliers to find a local optimum ",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Eliminates constraint equations",
+                "correct": false
+            },
+            {
+                "answer": "Uses gradients to locate the optimum",
+                "correct": false
+            },
+            {
+                "answer": "Modifies the objective function",
+                "correct": false
+            },
+            {
+                "answer": "All of the above",
+                "correct": true
+            }
+        ],
+        "tag": "lagrange_multipliers applications",
+        "lecture_file": "20_autograd_applications"
+    },
+    {
+        "question": "What is the relation between a Jacobian J and a Hessian H of a function f(x)",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "J = H( gradient(f(x)))",
+                "correct": false
+            },
+            {
+                "answer": "H = gradient (J(f(x))",
+                "correct": false
+            },
+            {
+                "answer": "H = J( gradient (f(x)))",
+                "correct": true
+            },
+            {
+                "answer": "There is no relation",
+                "correct": false
+            }
+        ],
+        "tag": "jacobian hessian derivative",
+        "lecture_file": "20_autograd_applications"
+    },
+    {
+        "question": "Which of the following is not an implicit function",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "sin(x)  + sin^2(y) = 0.75",
+                "correct": false
+            },
+            {
+                "answer": "3x^2 - 10 = y",
+                "correct": true
+            },
+            {
+                "answer": "y^4 + x^3 = 8",
+                "correct": false
+            },
+            {
+                "answer": "x^2 = y^2 - 10",
+                "correct": false
+            }
+        ],
+        "tag": "implicit_function applications",
+        "lecture_file": "20_autograd_applications"
+    },
+    {
+        "question": "<p>The correct function call to grad() for evaluating the partial derivative with respect to x2 is:</p>\n<pre><code class=\"language-python\">def f(x1, x2, x3):\n    return x1^2 + x2^2 -x3^3\n</code></pre>",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "grad(f, x2)",
+                "correct": false
+            },
+            {
+                "answer": "grad(f, 0)",
+                "correct": false
+            },
+            {
+                "answer": "grad(f, 1)",
+                "correct": true
+            },
+            {
+                "answer": "grad(f, 2)",
+                "correct": false
+            }
+        ],
+        "tag": "autograd derivative",
+        "lecture_file": "20_autograd_applications"
+    },
+    {
+        "question": "Automatic differentiation can be used for",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Constrained Optimization",
+                "correct": false
+            },
+            {
+                "answer": "Line integrals",
+                "correct": false
+            },
+            {
+                "answer": "Sensitivity Analysis",
+                "correct": false
+            },
+            {
+                "answer": "All of the above",
+                "correct": true
+            }
+        ],
+        "tag": "automatic_differentiation derivative",
+        "lecture_file": "20_autograd_applications"
+    },
+    {
+        "question": "Which of the following is not an implicit function",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "x^2 + 2x - 5 - y^2 = 0",
+                "correct": false
+            },
+            {
+                "answer": "x^2 - 5 = y^2",
+                "correct": false
+            },
+            {
+                "answer": "xy = x + y",
+                "correct": true
+            },
+            {
+                "answer": "sin(x)  + sin^2(y) = 0.75",
+                "correct": false
+            }
+        ],
+        "tag": "implicit_function applications",
+        "lecture_file": "20_autograd_applications"
+    },
+    {
+        "question": "To calculate how a variable changes with respect to a certain parameter, we can use",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Partial derivative of the variable with respect to the parameter",
+                "correct": true
+            },
+            {
+                "answer": "There are only experimental approaches to achieve this",
+                "correct": false
+            },
+            {
+                "answer": "A change of basis",
+                "correct": false
+            },
+            {
+                "answer": "A total derivative with respect to time",
+                "correct": false
+            }
+        ],
+        "tag": "derivative",
+        "lecture_file": "20_autograd_applications"
+    },
+    {
+        "question": "What is the partial derivative of the function f(x, y, z) = x^2 * e^z * cos(y) + 2*z*x*y, with respect to z.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "x^2 * cos(y) + 2*y*x",
+                "correct": false
+            },
+            {
+                "answer": "x^2 * e^z * cos(y) + 2*y*x",
+                "correct": true
+            },
+            {
+                "answer": "2*y*x",
+                "correct": false
+            },
+            {
+                "answer": "x^2 * e^z * cos(y) + 2*x*y*z",
+                "correct": false
+            }
+        ],
+        "tag": "derivative",
+        "lecture_file": "20_autograd_applications"
+    },
+    {
+        "question": "Neural networks are",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Linear models",
+                "correct": false
+            },
+            {
+                "answer": "Non-linear models",
+                "correct": true
+            },
+            {
+                "answer": "Linear regression models",
+                "correct": false
+            },
+            {
+                "answer": "None of the above",
+                "correct": false
+            }
+        ],
+        "tag": "neural_network",
+        "lecture_file": "21_machine_learning"
+    },
+    {
+        "question": "A data set can be represented with only a unique neural network model",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "FALSE",
+                "correct": true
+            },
+            {
+                "answer": "TRUE",
+                "correct": false
+            }
+        ],
+        "tag": "neural_network",
+        "lecture_file": "21_machine_learning"
+    },
+    {
+        "question": "Neural networks are very useful models because",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "They accurately represent biological neurons",
+                "correct": false
+            },
+            {
+                "answer": "Theoretically, they can fit to any data set",
+                "correct": true
+            },
+            {
+                "answer": "You don\u2019t need to train them",
+                "correct": false
+            },
+            {
+                "answer": "They can extrapolate in an accurate manner",
+                "correct": false
+            }
+        ],
+        "tag": "neural_network",
+        "lecture_file": "21_machine_learning"
+    },
+    {
+        "question": "The nature of extrapolation from a neural network depends a lot on",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "the activation functions",
+                "correct": true
+            },
+            {
+                "answer": "size of the data set",
+                "correct": false
+            },
+            {
+                "answer": "number of hidden layers",
+                "correct": false
+            },
+            {
+                "answer": "number of neurons",
+                "correct": false
+            }
+        ],
+        "tag": "activation_function hyperparameters",
+        "lecture_file": "21_machine_learning"
+    },
+    {
+        "question": "The hyperparameters for a neural network are",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "The number of neurons in a layer",
+                "correct": false
+            },
+            {
+                "answer": "The activation function",
+                "correct": false
+            },
+            {
+                "answer": "Number of hidden layers",
+                "correct": false
+            },
+            {
+                "answer": "All of the above",
+                "correct": true
+            }
+        ],
+        "tag": "hyperparameters",
+        "lecture_file": "21_machine_learning"
+    },
+    {
+        "question": "Gradient descent updates the hyperparameters after each",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Epoch",
+                "correct": true
+            },
+            {
+                "answer": "layer",
+                "correct": false
+            },
+            {
+                "answer": "data point",
+                "correct": false
+            },
+            {
+                "answer": "None of the above",
+                "correct": false
+            }
+        ],
+        "tag": "gradient_descent algorithm",
+        "lecture_file": "21_machine_learning"
+    },
+    {
+        "question": "For a neural network with the architecture:<br>Input layer = 3 features<br>first layer = 3 neurons<br>second layer = 5 neurons<br>output layer = 1 output variable<br>How many weights are involved between the first and second layer?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "9",
+                "correct": false
+            },
+            {
+                "answer": "3",
+                "correct": false
+            },
+            {
+                "answer": "15",
+                "correct": true
+            },
+            {
+                "answer": "5",
+                "correct": false
+            }
+        ],
+        "tag": "weights_biases algorithm",
+        "lecture_file": "21_machine_learning"
+    },
+    {
+        "question": "The gradient descent algorithm leads to at least a local minimum of",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "weights and biases",
+                "correct": false
+            },
+            {
+                "answer": "output",
+                "correct": false
+            },
+            {
+                "answer": "The objective function",
+                "correct": true
+            },
+            {
+                "answer": "None of the above",
+                "correct": false
+            }
+        ],
+        "tag": "gradient_descent algorithm",
+        "lecture_file": "21_machine_learning"
+    },
+    {
+        "question": "What is the value of the count of total weights and biases for a neural network which has 2 hidden layers (3 neurons in each) between the input (2 inputs) and output (1 output)?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "10",
+                "correct": false
+            },
+            {
+                "answer": "81",
+                "correct": false
+            },
+            {
+                "answer": "25",
+                "correct": true
+            },
+            {
+                "answer": "18",
+                "correct": false
+            }
+        ],
+        "tag": "weights_biases algorithm",
+        "lecture_file": "21_machine_learning"
+    },
+    {
+        "question": "The statement: 'A higher learning rate will result in quickly reaching the optimum parameters of a neural network', is",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Never true",
+                "correct": false
+            },
+            {
+                "answer": "Always true",
+                "correct": false
+            },
+            {
+                "answer": "Can be true only for learning rates above a certain threshold",
+                "correct": false
+            },
+            {
+                "answer": "Can be true, but can also cause the solver to not converge.",
+                "correct": true
+            }
+        ],
+        "tag": "learning_rate",
+        "lecture_file": "21_machine_learning"
+    },
+    {
+        "question": "Which of the following activation functions would always result in the model extrapolating to zero for features greater than the training data in value?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Radial Basis Function",
+                "correct": false
+            },
+            {
+                "answer": "tanh",
+                "correct": false
+            },
+            {
+                "answer": "RelU",
+                "correct": false
+            },
+            {
+                "answer": "None of the above",
+                "correct": true
+            }
+        ],
+        "tag": "activation_function",
+        "lecture_file": "22_ml_2"
+    },
+    {
+        "question": "RelU(-10) would give the output",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "10",
+                "correct": false
+            },
+            {
+                "answer": "-10",
+                "correct": false
+            },
+            {
+                "answer": "0",
+                "correct": true
+            },
+            {
+                "answer": "100",
+                "correct": false
+            }
+        ],
+        "tag": "activation_function",
+        "lecture_file": "22_ml_2"
+    },
+    {
+        "question": "A neural network with a constant value multiplier as the activation function, will give us a model which is equivalent to",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Non-linear regression",
+                "correct": false
+            },
+            {
+                "answer": "Linear regression",
+                "correct": true
+            },
+            {
+                "answer": "A neural network with a tanh activation",
+                "correct": false
+            },
+            {
+                "answer": "A neural network with a RelU activation",
+                "correct": false
+            }
+        ],
+        "tag": "activation_function",
+        "lecture_file": "22_ml_2"
+    },
+    {
+        "question": "The number of neurons in the first layer of a neural network should be",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Less than or equal to the number of input variables",
+                "correct": false
+            },
+            {
+                "answer": "Greater than or equal to the number of input variables",
+                "correct": false
+            },
+            {
+                "answer": "Always equal to the number of input variables",
+                "correct": false
+            },
+            {
+                "answer": "There is no set rule and depends on the problem at hand",
+                "correct": true
+            }
+        ],
+        "tag": "neural_network",
+        "lecture_file": "22_ml_2"
+    },
+    {
+        "question": "Neural networks can be used for",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Classification",
+                "correct": false
+            },
+            {
+                "answer": "Regression",
+                "correct": false
+            },
+            {
+                "answer": "Feature Engineering",
+                "correct": false
+            },
+            {
+                "answer": "All of the above",
+                "correct": true
+            }
+        ],
+        "tag": "neural_network",
+        "lecture_file": "22_ml_2"
+    },
+    {
+        "question": "For a finite data set and a single layer neural network with a tanh activation function, a data point at -inf would give the output as",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "-inf",
+                "correct": false
+            },
+            {
+                "answer": "+inf",
+                "correct": false
+            },
+            {
+                "answer": "a finite value",
+                "correct": true
+            },
+            {
+                "answer": "-1",
+                "correct": false
+            }
+        ],
+        "tag": "activation_function",
+        "lecture_file": "22_ml_2"
+    },
+    {
+        "question": "If the training error is 0, then it is most likely that",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "We have a perfect model generalising the data",
+                "correct": false
+            },
+            {
+                "answer": "The model is overfitting",
+                "correct": true
+            },
+            {
+                "answer": "The model is underfitting",
+                "correct": false
+            },
+            {
+                "answer": "The model is non-linear",
+                "correct": false
+            }
+        ],
+        "tag": "train_test",
+        "lecture_file": "22_ml_2"
+    },
+    {
+        "question": "A good model will most probably have",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Test error slighlty higher than the training error",
+                "correct": true
+            },
+            {
+                "answer": "Test error much higher than the training error",
+                "correct": false
+            },
+            {
+                "answer": "Test error equal to the training error",
+                "correct": false
+            },
+            {
+                "answer": "Test error much lower than the training error",
+                "correct": false
+            }
+        ],
+        "tag": "train_test",
+        "lecture_file": "22_ml_2"
+    },
+    {
+        "question": "As the number of epochs in training a neural network would increase, assuming the model converges eventually, the training error would",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Keep on increasing",
+                "correct": false
+            },
+            {
+                "answer": "Keep on decreasing",
+                "correct": false
+            },
+            {
+                "answer": "Decrease then increase",
+                "correct": false
+            },
+            {
+                "answer": "Decrease and will reach a constant value",
+                "correct": true
+            }
+        ],
+        "tag": "train_test epoch",
+        "lecture_file": "22_ml_2"
+    },
+    {
+        "question": "Reducing the step size will result in",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "No changes in the model performance",
+                "correct": false
+            },
+            {
+                "answer": "Less epochs required to reach the desired accuracy",
+                "correct": false
+            },
+            {
+                "answer": "More epochs required to reach the desired accuracy",
+                "correct": true
+            },
+            {
+                "answer": "A smaller neural network",
+                "correct": false
+            }
+        ],
+        "tag": "neural_network step_size epoch",
+        "lecture_file": "22_ml_2"
+    },
+    {
+        "question": "A smaller lengthscale than the optimum will result in",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "A more accurate model",
+                "correct": false
+            },
+            {
+                "answer": "Overfitting",
+                "correct": true
+            },
+            {
+                "answer": "Underfitting",
+                "correct": false
+            },
+            {
+                "answer": "A linear model",
+                "correct": false
+            }
+        ],
+        "tag": "hyperparameters lengthscale",
+        "lecture_file": "23_gp"
+    },
+    {
+        "question": "When using a gaussian kernel, a point has near-zero covariance with another point if it is x distance away. x = ?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Lengthscale",
+                "correct": false
+            },
+            {
+                "answer": "0.5*Lengthscale",
+                "correct": false
+            },
+            {
+                "answer": "2*Lengthscale",
+                "correct": true
+            },
+            {
+                "answer": "4*Lengthscale",
+                "correct": false
+            }
+        ],
+        "tag": "hyperparameters lengthscale",
+        "lecture_file": "23_gp"
+    },
+    {
+        "question": "To calculate the weights of a GPR model, we would need",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "The x-values of the train data set",
+                "correct": false
+            },
+            {
+                "answer": "The x-values of the test data set",
+                "correct": false
+            },
+            {
+                "answer": "Noise in the data",
+                "correct": false
+            },
+            {
+                "answer": "All of the above",
+                "correct": true
+            }
+        ],
+        "tag": "hyperparameters",
+        "lecture_file": "23_gp"
+    },
+    {
+        "question": "We can use multiple covariance functions in a single model",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "TRUE",
+                "correct": true
+            },
+            {
+                "answer": "FALSE",
+                "correct": false
+            },
+            {
+                "answer": "-",
+                "correct": false
+            },
+            {
+                "answer": "-",
+                "correct": false
+            }
+        ],
+        "tag": "kernel",
+        "lecture_file": "23_gp"
+    },
+    {
+        "question": "A kernel is analogous to",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "a change of basis",
+                "correct": true
+            },
+            {
+                "answer": "activation functions",
+                "correct": false
+            },
+            {
+                "answer": "Both of the above",
+                "correct": false
+            },
+            {
+                "answer": "None of the above",
+                "correct": false
+            }
+        ],
+        "tag": "kernel",
+        "lecture_file": "23_gp"
+    },
+    {
+        "question": "Which of the following are hyperparameters of a GPR model?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Lengthscale",
+                "correct": false
+            },
+            {
+                "answer": "Noise",
+                "correct": false
+            },
+            {
+                "answer": "Kernel",
+                "correct": false
+            },
+            {
+                "answer": "All of the above",
+                "correct": true
+            }
+        ],
+        "tag": "hyperparameters",
+        "lecture_file": "23_gp"
+    },
+    {
+        "question": "Gaussian Process Regression is",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Deterministic and parametric",
+                "correct": false
+            },
+            {
+                "answer": "Probabilistic and non-parametric",
+                "correct": true
+            },
+            {
+                "answer": "Probabilistic and parametric",
+                "correct": false
+            },
+            {
+                "answer": "Deterministic and non-parametric",
+                "correct": false
+            }
+        ],
+        "tag": "kernel",
+        "lecture_file": "23_gp"
+    },
+    {
+        "question": "The sum of two independent gaussian distribution functions is",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "a constant",
+                "correct": false
+            },
+            {
+                "answer": "linear",
+                "correct": false
+            },
+            {
+                "answer": "gaussian",
+                "correct": true
+            },
+            {
+                "answer": "Periodic",
+                "correct": false
+            }
+        ],
+        "tag": "kernel",
+        "lecture_file": "23_gp"
+    },
+    {
+        "question": "The nature of extrapolation of a GPR model beyond the training data range would be determined by",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "The kernel",
+                "correct": true
+            },
+            {
+                "answer": "The number of data points",
+                "correct": false
+            },
+            {
+                "answer": "Noise",
+                "correct": false
+            },
+            {
+                "answer": "None of the above",
+                "correct": false
+            }
+        ],
+        "tag": "kernel extrapolation",
+        "lecture_file": "23_gp"
+    },
+    {
+        "question": "What would be the result if we use a linear kernal for a dataset that roughly follows a sinusoidal trend.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "We will get a coding error",
+                "correct": false
+            },
+            {
+                "answer": "the model will still perfectly fit",
+                "correct": false
+            },
+            {
+                "answer": "the model will have a low uncertainty",
+                "correct": false
+            },
+            {
+                "answer": "The model will have a high uncertainty ",
+                "correct": true
+            }
+        ],
+        "tag": "kernel uncertainty",
+        "lecture_file": "23_gp"
+    }
+]
